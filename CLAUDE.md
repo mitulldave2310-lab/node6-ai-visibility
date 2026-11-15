@@ -26,7 +26,7 @@ Users: business owners (public, no login, often on mobile) and node6 Labs as ope
 - `src/lib/n8n/`: webhook client for the Week 4 pipeline (planned).
 - `src/lib/audit/client.ts`: browser-side `requestAudit()` and `sortChecks()`. No React, so it is unit-tested.
 - `src/components/`: React components. `AuditForm` (client, owns state) renders `AuditReport` (presentational).
-- `docs/`: product brief and architecture notes (brief in progress for Week 5).
+- `docs/brief.md`: product brief summary, Week 6 build order and known limits. Read it before planning a feature.
 
 ## Audit API contract (UI and n8n depend on it)
 Response: `{ url, site_up, score (0-100), grade (A-F), checks[{id,name,points,earned,status:"pass"|"warn"|"fail",detail,fix}], top_gaps[{id,name,fix,detail}], signals{title,description,h1,schema_types,words,text_sample}, audited_at, took_ms }`.
