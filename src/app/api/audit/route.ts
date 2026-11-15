@@ -20,9 +20,9 @@ async function runAudit(input: unknown) {
   } catch (e) {
     if (e instanceof InvalidUrlError) return NextResponse.json({ error: e.message }, { status: 400 });
     // DNS failure on the first lookup means the domain doesn't exist.
-    // Node puts the reason in e.code; the message wording differs between local and Vercel.
+    // Node puts the reason in e.code. Vercel's resolver reports unknown domains as EBUSY, not ENOTFOUND.
     const code = e instanceof Error ? `${(e as NodeJS.ErrnoException).code ?? ""} ${e.message}` : "";
-    if (/ENOTFOUND|EAI_AGAIN|ENODATA|ESERVFAIL|EAI_NONAME/.test(code)) {
+    if (/ENOTFOUND|EAI_AGAIN|ENODATA|ESERVFAIL|EAI_NONAME|EBUSY/.test(code)) {
       return NextResponse.json({ error: "We couldn't find that website. Check the spelling." }, { status: 422 });
     }
     console.error("audit failed", e);
