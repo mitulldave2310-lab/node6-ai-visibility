@@ -20,7 +20,9 @@ async function runAudit(input: unknown) {
   } catch (e) {
     if (e instanceof InvalidUrlError) return NextResponse.json({ error: e.message }, { status: 400 });
     // DNS failure on the first lookup means the domain doesn't exist.
-    if (e instanceof Error && /ENOTFOUND|EAI_AGAIN/.test(e.message)) {
+    // Node puts the reason in e.code; the message wording differs between local and Vercel.
+    const code = e instanceof Error ? `${(e as NodeJS.ErrnoException).code ?? ""} ${e.message}` : "";
+    if (/ENOTFOUND|EAI_AGAIN|ENODATA|ESERVFAIL|EAI_NONAME/.test(code)) {
       return NextResponse.json({ error: "We couldn't find that website. Check the spelling." }, { status: 422 });
     }
     console.error("audit failed", e);
