@@ -1,0 +1,35 @@
+node6labs.com run 1: 200 disqualify X/5 none verified 3/3 (web 0) 15s
+node6labs.com run 2: 200 disqualify X/5 none verified 3/3 (web 0) 15s
+node6labs.com run 3: 200 disqualify X/8 none verified 3/3 (web 0) 14s
+infosys.com run 1: 200 disqualify X/5 none verified 2/2 (web 2) 19s
+infosys.com run 2: 200 disqualify X/3 none verified 4/4 (web 4) 20s
+infosys.com run 3: 200 disqualify X/5 none verified 1/2 (web 1) 16s
+forbesmarshall.com run 1: 200 disqualify X/15 none verified 3/3 (web 3) 21s
+forbesmarshall.com run 2: 200 disqualify X/8 none verified 2/2 (web 2) 18s
+forbesmarshall.com run 3: 200 disqualify X/8 none verified 2/3 (web 2) 20s
+shaktipumps.com run 1: 422 - -/- - verified 0/0 (web 0) 2s ERR We couldn't find that website. Check the spelling.
+shaktipumps.com run 2: 422 - -/- - verified 0/0 (web 0) 0s ERR We couldn't find that website. Check the spelling.
+shaktipumps.com run 3: 422 - -/- - verified 0/0 (web 0) 0s ERR We couldn't find that website. Check the spelling.
+bluetokaicoffee.com run 1: 200 draft B/55 digital_transformation verified 3/3 (web 2) 27s
+bluetokaicoffee.com run 2: 200 draft B/55 ecommerce verified 5/5 (web 3) 25s
+bluetokaicoffee.com run 3: 200 draft B/55 digital_transformation verified 4/4 (web 3) 28s
+jyoticeramic.com run 1: 200 draft B/62 web_development verified 4/4 (web 1) 24s
+jyoticeramic.com run 2: 200 draft B/60 web_development verified 4/4 (web 2) 26s
+jyoticeramic.com run 3: 200 draft B/62 web_development verified 5/5 (web 1) 25s
+uniklinger.com run 1: 200 draft B/62 web_development verified 5/5 (web 1) 22s
+uniklinger.com run 2: 200 draft B/58 web_development verified 4/4 (web 0) 23s
+uniklinger.com run 3: 200 draft B/58 web_development verified 4/4 (web 1) 23s
+thewholetruthfoods.com run 1: 200 draft B/58 ecommerce verified 4/4 (web 2) 26s
+thewholetruthfoods.com run 2: 200 draft B/62 ecommerce verified 2/4 (web 1) 25s
+thewholetruthfoods.com run 3: 200 draft B/62 ecommerce verified 4/4 (web 2) 24s
+bakingo.com run 1: 200 draft B/58 automation verified 3/3 (web 3) 26s
+bakingo.com run 2: 200 draft B/66 automation verified 3/3 (web 3) 25s
+bakingo.com run 3: 200 draft B/58 automation verified 5/5 (web 4) 26s
+wonderchef.com run 1: 200 draft B/62 ecommerce verified 5/5 (web 2) 30s
+wonderchef.com run 2: 200 manual_review C/30 web_development verified 3/3 (web 0) 21s
+wonderchef.com run 3: 200 draft B/62 ecommerce verified 4/4 (web 3) 30s
+- Successful runs: 27/30
+- Companies with the same route on every run: 8/10
+- Quoted signals that verified against their source: 94/98
+- Slowest run: 30s
+Saved results/consistency-2026-11-21.json and results/consistency-2026-11-21.md

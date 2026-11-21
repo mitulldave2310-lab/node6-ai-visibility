@@ -1,0 +1,3776 @@
+[
+  {
+    "website": "node6labs.com",
+    "status": 200,
+    "ms": 15061,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 5,
+    "service": "none",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://node6labs.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "node6 Labs is a technology agency based in Thane, India, offering AI transformation, custom software, web, eCommerce, automation and digital strategy services to organisations worldwide.",
+        "fit_tier": "X",
+        "fit_score": 5,
+        "service": "none",
+        "service_reason": "node6 Labs is itself an agency offering the same services node6 Labs sells, which the ICP lists as a poor fit.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Agency offering the same services",
+            "evidence": "Practical solutions at the intersection of business strategy, AI, automation, software engineering and digital growth.",
+            "source": "site"
+          },
+          {
+            "label": "Full agency service menu",
+            "evidence": "Purpose-built software for the way your organisation actually works.",
+            "source": "site"
+          },
+          {
+            "label": "Positions itself as a technology provider",
+            "evidence": "Make technology move things forward.",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Exact headcount",
+          "Revenue range",
+          "Whether any in-house or outsourced engineering exists beyond the founder and AI agent"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 5,
+        "signals": [
+          {
+            "label": "Agency offering the same services",
+            "evidence": "Practical solutions at the intersection of business strategy, AI, automation, software engineering and digital growth.",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Full agency service menu",
+            "evidence": "Purpose-built software for the way your organisation actually works.",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Positions itself as a technology provider",
+            "evidence": "Make technology move things forward.",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 5,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 461
+        },
+        {
+          "name": "Web research",
+          "ms": 8313
+        },
+        {
+          "name": "Claude decision",
+          "ms": 5703
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "node6labs.com",
+    "status": 200,
+    "ms": 14990,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 5,
+    "service": "none",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://node6labs.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "node6 Labs is a technology services firm that offers AI transformation, automation, custom software, web and eCommerce development, and digital strategy. It appears to sell these services to other businesses, which makes it a services provider rather than a buyer.",
+        "fit_tier": "X",
+        "fit_score": 5,
+        "service": "none",
+        "service_reason": "The company is itself a technology agency offering the same services we sell, which the ideal customer profile lists as a poor fit.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Competing agency offering the same services",
+            "evidence": "node6 Labs connects business strategy, AI, automation and software engineering to practical digital progress for organisations around the world.",
+            "source": "site"
+          },
+          {
+            "label": "Sells custom software development as a service",
+            "evidence": "Purpose-built software for the way your organisation actually works.",
+            "source": "site"
+          },
+          {
+            "label": "Sells web and eCommerce development as services",
+            "evidence": "Build a commerce experience that works for your customers and your team.",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Whether node6 Labs buys any of these services itself, which would be unusual for an agency",
+          "Headcount and location are unverified; the Thane location comes from a LinkedIn profile only"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 5,
+        "signals": [
+          {
+            "label": "Competing agency offering the same services",
+            "evidence": "node6 Labs connects business strategy, AI, automation and software engineering to practical digital progress for organisations around the world.",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Sells custom software development as a service",
+            "evidence": "Purpose-built software for the way your organisation actually works.",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Sells web and eCommerce development as services",
+            "evidence": "Build a commerce experience that works for your customers and your team.",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 7,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 314
+        },
+        {
+          "name": "Web research",
+          "ms": 8475
+        },
+        {
+          "name": "Claude decision",
+          "ms": 6115
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "node6labs.com",
+    "status": 200,
+    "ms": 14279,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 8,
+    "service": "none",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://node6labs.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "node6 Labs is a digital services firm founded in 2012 and based in Thane, India. It offers AI transformation, software development, automation, web and eCommerce development, and digital strategy.",
+        "fit_tier": "X",
+        "fit_score": 8,
+        "service": "none",
+        "service_reason": "node6 Labs is itself a technology agency selling the same service lines node6 Labs would offer, which the ideal customer profile lists as a poor fit.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Competes as a digital services agency",
+            "evidence": "connects business strategy, AI, automation and software engineering to practical digital progress",
+            "source": "site"
+          },
+          {
+            "label": "Offers the same service lines",
+            "evidence": "Custom Software Development",
+            "source": "site"
+          },
+          {
+            "label": "Based in India, works worldwide",
+            "evidence": "Founded 2012 · Thane, India · Working worldwide",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Whether the company has any in-house engineering team or hiring needs",
+          "Its own customer base and whether it sells products online",
+          "Headcount and revenue, which are not stated on the site"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 8,
+        "signals": [
+          {
+            "label": "Competes as a digital services agency",
+            "evidence": "connects business strategy, AI, automation and software engineering to practical digital progress",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Offers the same service lines",
+            "evidence": "Custom Software Development",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Based in India, works worldwide",
+            "evidence": "Founded 2012 · Thane, India · Working worldwide",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 5,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 468
+        },
+        {
+          "name": "Web research",
+          "ms": 7839
+        },
+        {
+          "name": "Claude decision",
+          "ms": 5841
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "infosys.com",
+    "status": 200,
+    "ms": 19220,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 5,
+    "service": "none",
+    "signals": 2,
+    "verified": 2,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://infosys.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Infosys is a large global IT services and consulting company that describes itself as a global leader in next-generation digital services, with banking software and AI offerings. Its headcount is about 332,542.",
+        "fit_tier": "X",
+        "fit_score": 5,
+        "service": "none",
+        "service_reason": "Infosys is a very large enterprise with its own engineering scale, so none of node6 Labs' services fits a buyer need here.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Very large enterprise scale",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees as of September 30, 2026",
+            "source": "web:7"
+          },
+          {
+            "label": "Core business is digital services and consulting",
+            "evidence": "Infosys is a global leader in next-generation digital services and consulting.",
+            "source": "web:1"
+          }
+        ],
+        "missing_info": [
+          "Whether Infosys has any subcontracting or partner need that a small agency could serve",
+          "Whether the blocked access to the company website is temporary"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 5,
+        "signals": [
+          {
+            "label": "Very large enterprise scale",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees as of September 30, 2026",
+            "source": "web:7",
+            "verified": true,
+            "url": "https://www.storyboard18.com/amp/brand-marketing/infosys-q2-fy27-selling-and-marketing-spend-rises-12-to-%E2%82%B92489-crore-attrition-falls-to-12-7-113295.htm"
+          },
+          {
+            "label": "Core business is digital services and consulting",
+            "evidence": "Infosys is a global leader in next-generation digital services and consulting.",
+            "source": "web:1",
+            "verified": true,
+            "url": "https://www.infosys.com/about/overview.html"
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 181
+        },
+        {
+          "name": "Web research",
+          "ms": 14257
+        },
+        {
+          "name": "Claude decision",
+          "ms": 4709
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "infosys.com",
+    "status": 200,
+    "ms": 19760,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 3,
+    "service": "none",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 4,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://infosys.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Infosys is a Bengaluru-headquartered IT consulting and technology services firm with about 332,542 employees, serving global banks, investment firms, payment processors and insurers. Its own site says it serves clients in 59 countries.",
+        "fit_tier": "X",
+        "fit_score": 3,
+        "service": "none",
+        "service_reason": "Infosys is a very large IT services firm with its own AI and cloud platforms and delivery capacity, so it is a competitor rather than a buyer for node6 Labs' web, e-commerce or automation work.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Very large headcount",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees",
+            "source": "web:9"
+          },
+          {
+            "label": "Large enterprise client base",
+            "evidence": "Clients include global banks, investment firms, payment processors, and insurance companies.",
+            "source": "web:5"
+          },
+          {
+            "label": "Global delivery model",
+            "evidence": "This extensive network supports a global delivery model",
+            "source": "web:2"
+          },
+          {
+            "label": "Global reach",
+            "evidence": "enable clients in 59 countries",
+            "source": "web:12"
+          }
+        ],
+        "missing_info": [
+          "The website returned Access Denied, so the company's own site could not be reviewed",
+          "No evidence of a small or mid-size buyer profile, which is outside the ideal customer profile",
+          "No sign of an open subcontracting or partner route for web, e-commerce or automation work",
+          "Any partner or subcontractor opportunity would need a separate review and is not part of this qualification"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 3,
+        "signals": [
+          {
+            "label": "Very large headcount",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://www.storyboard18.com/amp/brand-marketing/infosys-q2-fy27-selling-and-marketing-spend-rises-12-to-%E2%82%B92489-crore-attrition-falls-to-12-7-113295.htm"
+          },
+          {
+            "label": "Large enterprise client base",
+            "evidence": "Clients include global banks, investment firms, payment processors, and insurance companies.",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://umbrex.com/resources/profiles-of-the-top-consulting-firms/overview-profile-and-history-of-infosys-ltd-and-infosys-consulting/"
+          },
+          {
+            "label": "Global delivery model",
+            "evidence": "This extensive network supports a global delivery model",
+            "source": "web:2",
+            "verified": true,
+            "url": "https://www.highperformr.ai/company/311027"
+          },
+          {
+            "label": "Global reach",
+            "evidence": "enable clients in 59 countries",
+            "source": "web:12",
+            "verified": true,
+            "url": "https://www.infosys.com/about/overview.html"
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 148
+        },
+        {
+          "name": "Web research",
+          "ms": 14022
+        },
+        {
+          "name": "Claude decision",
+          "ms": 5516
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "infosys.com",
+    "status": 200,
+    "ms": 15865,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 5,
+    "service": "none",
+    "signals": 2,
+    "verified": 1,
+    "web_verified": 1,
+    "overrides": [
+      "1 signal could not be matched to the source and was marked unverified."
+    ],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://infosys.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Infosys is a large listed Indian IT services and consulting company serving enterprise clients in 59 countries, with about 332,542 employees per its reported figure. It is a large enterprise with its own engineering capacity, not a typical SME buyer.",
+        "fit_tier": "X",
+        "fit_score": 5,
+        "service": "none",
+        "service_reason": "Infosys is a very large enterprise that competes directly in digital transformation, AI and automation, so none of node6 Labs' services fit a standard sales approach.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Very large enterprise scale",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees as of September 30, 2026",
+            "source": "web:8"
+          },
+          {
+            "label": "Competes in same services",
+            "evidence": "Its IT services offerings include consulting, digital transformation, and business process outsourcing.",
+            "source": "web:2"
+          }
+        ],
+        "missing_info": [
+          "Whether any subcontracting or partner opportunity exists, which would need a separate partnerships conversation",
+          "Website content was blocked (Access Denied), so the company's own current offerings could not be checked directly"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 5,
+        "signals": [
+          {
+            "label": "Very large enterprise scale",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees as of September 30, 2026",
+            "source": "web:8",
+            "verified": true,
+            "url": "https://www.storyboard18.com/amp/brand-marketing/infosys-q2-fy27-selling-and-marketing-spend-rises-12-to-%E2%82%B92489-crore-attrition-falls-to-12-7-113295.htm"
+          },
+          {
+            "label": "Competes in same services",
+            "evidence": "Its IT services offerings include consulting, digital transformation, and business process outsourcing.",
+            "source": "web:2",
+            "verified": false,
+            "url": "https://pitchbook.com/profiles/company/41188-60"
+          }
+        ],
+        "roles": [],
+        "overrides": [
+          "1 signal could not be matched to the source and was marked unverified."
+        ]
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 134
+        },
+        {
+          "name": "Web research",
+          "ms": 12628
+        },
+        {
+          "name": "Claude decision",
+          "ms": 3060
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "forbesmarshall.com",
+    "status": 200,
+    "ms": 20905,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 15,
+    "service": "none",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://forbesmarshall.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Forbes Marshall is an engineering company headquartered in Kasarwadi, Pune, that sells steam efficiency, process optimisation, and control and monitoring products. Its website did not load, so this summary relies on search results.",
+        "fit_tier": "C",
+        "fit_score": 15,
+        "service": "none",
+        "service_reason": "The sources describe a large engineering organisation with in-house engineers and no quoted business need that an agency would address.",
+        "buyer_roles": [
+          "Head of IT",
+          "Head of Digital"
+        ],
+        "signals": [
+          {
+            "label": "Large in-house engineering team",
+            "evidence": "engineers located in five continents",
+            "source": "web:7"
+          },
+          {
+            "label": "Large global headcount",
+            "evidence": "Forbes Marshall employs approximately 2,000 people globally",
+            "source": "web:10"
+          },
+          {
+            "label": "Large revenue estimate",
+            "evidence": "$500M-$1B",
+            "source": "web:11"
+          }
+        ],
+        "missing_info": [
+          "Company website content and current offerings (site did not load)",
+          "Audit results (audit empty)",
+          "Verified headcount, since sources range from about 2,000 to 2,750 and LinkedIn lists 1,001-5,000",
+          "Verified revenue against official filings",
+          "Whether any digital or IT needs exist outside the in-house engineering team"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 15,
+        "signals": [
+          {
+            "label": "Large in-house engineering team",
+            "evidence": "engineers located in five continents",
+            "source": "web:7",
+            "verified": true,
+            "url": "https://processandsteam.com/wp-content/uploads/2022/05/forbes-marshall-brochure.pdf"
+          },
+          {
+            "label": "Large global headcount",
+            "evidence": "Forbes Marshall employs approximately 2,000 people globally",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://grokipedia.com/page/Forbes_Marshall"
+          },
+          {
+            "label": "Large revenue estimate",
+            "evidence": "$500M-$1B",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://www.levels.fyi/companies/forbes-marshall"
+          }
+        ],
+        "roles": [
+          "Head of IT",
+          "Head of Digital"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 71
+        },
+        {
+          "name": "Web research",
+          "ms": 13423
+        },
+        {
+          "name": "Claude decision",
+          "ms": 7370
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "forbesmarshall.com",
+    "status": 200,
+    "ms": 18042,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 8,
+    "service": "none",
+    "signals": 2,
+    "verified": 2,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://forbesmarshall.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Forbes Marshall is a Pune-based manufacturer of steam engineering and control instrumentation, including boilers, steam traps and process automation equipment, sold through a direct technical sales force. Its website did not load, so this rests on third-party sources.",
+        "fit_tier": "X",
+        "fit_score": 8,
+        "service": "none",
+        "service_reason": "The company is too large and has an in-house engineering and sales organisation, which places it in the poor-fit group, so no agency service is recommended.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Large workforce",
+            "evidence": "employs approximately 2,000 people globally",
+            "source": "web:9"
+          },
+          {
+            "label": "Large in-house engineering team",
+            "evidence": "Over 700",
+            "source": "web:6"
+          }
+        ],
+        "missing_info": [
+          "Website content could not be loaded, so the site's current state and digital offering are unverified",
+          "Headcount and revenue differ across sources (2,000 vs 2,750 employees; revenue estimates vary), though the company is clearly above the target size either way",
+          "No audit data was available"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 8,
+        "signals": [
+          {
+            "label": "Large workforce",
+            "evidence": "employs approximately 2,000 people globally",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://grokipedia.com/page/Forbes_Marshall"
+          },
+          {
+            "label": "Large in-house engineering team",
+            "evidence": "Over 700",
+            "source": "web:6",
+            "verified": true,
+            "url": "https://processandsteam.com/wp-content/uploads/2022/05/forbes-marshall-brochure.pdf"
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 52
+        },
+        {
+          "name": "Web research",
+          "ms": 12113
+        },
+        {
+          "name": "Claude decision",
+          "ms": 5822
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "forbesmarshall.com",
+    "status": 200,
+    "ms": 19887,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 8,
+    "service": "none",
+    "signals": 3,
+    "verified": 2,
+    "web_verified": 2,
+    "overrides": [
+      "1 signal could not be matched to the source and was marked unverified."
+    ],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://forbesmarshall.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Forbes Marshall is a Pune-based industrial company that supplies energy conservation, steam, control and process automation products to process industries. Its operations span many countries and several manufacturing plants.",
+        "fit_tier": "X",
+        "fit_score": 8,
+        "service": "none",
+        "service_reason": "The company is far above the 10 to 500 person range and runs its own manufacturing and engineering, so none of node6 Labs' services fits a clear need from the evidence.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Large multi-country sales and service team",
+            "evidence": "We began operations in India and now have offices in 19 countries with a sales and service team of over 500 engineers.",
+            "source": "web:11"
+          },
+          {
+            "label": "Own manufacturing footprint",
+            "evidence": "These solutions are supplied from our six manufacturing facilities located in India, the United Kingdom, and Singapore.",
+            "source": "web:12"
+          },
+          {
+            "label": "Broad industrial product range",
+            "evidence": "This includes boilers, steam traps, control valves, automation systems, water quality analyzers, steam and water analysis systems, pollution monitoring systems and flow metering.",
+            "source": "web:2"
+          }
+        ],
+        "missing_info": [
+          "Website did not load and no site or audit evidence was collected",
+          "Headcount differs by source (LinkedIn 1,001 to 5,000, RocketReach 2,540, Levels.fyi 2,750)",
+          "Revenue is not confirmed by an official source",
+          "Whether the company has in-house digital or IT teams that would make an outside agency unnecessary"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 8,
+        "signals": [
+          {
+            "label": "Large multi-country sales and service team",
+            "evidence": "We began operations in India and now have offices in 19 countries with a sales and service team of over 500 engineers.",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://www.forbesmarshall.com/usa/"
+          },
+          {
+            "label": "Own manufacturing footprint",
+            "evidence": "These solutions are supplied from our six manufacturing facilities located in India, the United Kingdom, and Singapore.",
+            "source": "web:12",
+            "verified": true,
+            "url": "https://www.forbesmarshall.com/usa/"
+          },
+          {
+            "label": "Broad industrial product range",
+            "evidence": "This includes boilers, steam traps, control valves, automation systems, water quality analyzers, steam and water analysis systems, pollution monitoring systems and flow metering.",
+            "source": "web:2",
+            "verified": false,
+            "url": "https://www.forbesmarshall.com/usa/"
+          }
+        ],
+        "roles": [],
+        "overrides": [
+          "1 signal could not be matched to the source and was marked unverified."
+        ]
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 50
+        },
+        {
+          "name": "Web research",
+          "ms": 12955
+        },
+        {
+          "name": "Claude decision",
+          "ms": 6837
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "shaktipumps.com",
+    "status": 422,
+    "ms": 1631,
+    "error": "We couldn't find that website. Check the spelling.",
+    "route": null,
+    "tier": null,
+    "score": null,
+    "service": null,
+    "signals": 0,
+    "verified": 0,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "error": "We couldn't find that website. Check the spelling."
+    },
+    "run": 1
+  },
+  {
+    "website": "shaktipumps.com",
+    "status": 422,
+    "ms": 44,
+    "error": "We couldn't find that website. Check the spelling.",
+    "route": null,
+    "tier": null,
+    "score": null,
+    "service": null,
+    "signals": 0,
+    "verified": 0,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "error": "We couldn't find that website. Check the spelling."
+    },
+    "run": 2
+  },
+  {
+    "website": "shaktipumps.com",
+    "status": 422,
+    "ms": 37,
+    "error": "We couldn't find that website. Check the spelling.",
+    "route": null,
+    "tier": null,
+    "score": null,
+    "service": null,
+    "signals": 0,
+    "verified": 0,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "error": "We couldn't find that website. Check the spelling."
+    },
+    "run": 3
+  },
+  {
+    "website": "bluetokaicoffee.com",
+    "status": 200,
+    "ms": 27123,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 55,
+    "service": "digital_transformation",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bluetokaicoffee.com",
+      "company": "",
+      "audit": {
+        "earned": 80,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Blue Tokai Coffee Roasters is an Indian specialty coffee brand that sells freshly roasted beans online and runs cafés, with a wholesale arm for offices, cafés and hotels.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "digital_transformation",
+        "service_reason": "The digital marketing hiring post asks for a digital strategy across paid, owned and earned channels, and the cafés expansion adds more channels to coordinate.",
+        "buyer_roles": [
+          "Head of Digital",
+          "Digital Marketing Manager",
+          "Head of Technology"
+        ],
+        "signals": [
+          {
+            "label": "Hiring for a digital strategy role",
+            "evidence": "Building a digital strategy for the brand, deploying digital solutions across paid, owned and earned channels covering our B2C e-commerce business",
+            "source": "web:8"
+          },
+          {
+            "label": "Rapid café expansion",
+            "evidence": "Blue Tokai operates more than 175 cafés in India",
+            "source": "web:11"
+          },
+          {
+            "label": "No structured company data on the site",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          }
+        ],
+        "missing_info": [
+          "Current headcount, since Wellfound's 201-500 figure may not match a chain of this size",
+          "Current revenue, since sources differ",
+          "Whether the digital and IT roles are still open",
+          "Which systems already run the web store, app, delivery platforms and wholesale",
+          "Whether an in-house team already handles digital work",
+          "Whether the café count in the 2025 article is current"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Digital transformation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Hiring for a digital strategy role",
+            "evidence": "Building a digital strategy for the brand, deploying digital solutions across paid, owned and earned channels covering our B2C e-commerce business",
+            "source": "web:8",
+            "verified": true,
+            "url": "https://www.instahyre.com/job-53638-digital-marketing-manager-at-blue-tokai-coffee-roasters-delhi/"
+          },
+          {
+            "label": "Rapid café expansion",
+            "evidence": "Blue Tokai operates more than 175 cafés in India",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://finance.yahoo.com/news/blue-tokai-secures-25m-bridge-094532561.html"
+          },
+          {
+            "label": "No structured company data on the site",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of Digital",
+          "Digital Marketing Manager",
+          "Head of Technology"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Blue Tokai's digital strategy hire",
+        "body": "Hi,\n\nI saw Blue Tokai is hiring for a digital strategy role covering paid, owned and earned channels for the B2C e-commerce business. With more than 175 cafés in India, that is a lot of digital to tie together.\n\nOne small thing I noticed: your site has no structured data (JSON-LD), so search engines get less clear information about the brand.\n\nI build websites, stores and automation with node6 Labs, and could help with fixes like this as part of the wider digital work.\n\nWould it be worth a short chat on this? Yes or no is fine.\n\nMitull",
+        "facts_used": [
+          "web:8",
+          "web:11",
+          "audit:schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 99
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 313
+        },
+        {
+          "name": "Web research",
+          "ms": 13705
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10108
+        },
+        {
+          "name": "Draft",
+          "ms": 2956
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "bluetokaicoffee.com",
+    "status": 200,
+    "ms": 25450,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 55,
+    "service": "ecommerce",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bluetokaicoffee.com",
+      "company": "",
+      "audit": {
+        "earned": 80,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Blue Tokai Coffee Roasters sells freshly roasted single-estate Arabica coffee beans, brewing equipment and coffee concentrates online, and operates more than 175 cafés in India and abroad.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "ecommerce",
+        "service_reason": "The site sells direct online and the company is pushing into quick-commerce and new markets, so the strongest fit is multi-channel online ordering and integration.",
+        "buyer_roles": [
+          "Head of E-commerce",
+          "Digital Marketing Manager",
+          "Chief Operating Officer"
+        ],
+        "signals": [
+          {
+            "label": "Online ordering is a core channel",
+            "evidence": "Order yours online now!",
+            "source": "site"
+          },
+          {
+            "label": "Quick-commerce expansion pending",
+            "evidence": "Coming soon to quick-commerce platforms like Blinkit, Instamart, and Zepto",
+            "source": "web:3"
+          },
+          {
+            "label": "Middle East expansion announced",
+            "evidence": "In July 2025, Blue Tokai Coffee Roasters announced plans to expand into the Middle East",
+            "source": "web:11"
+          },
+          {
+            "label": "Hiring for digital strategy",
+            "evidence": "Building a digital strategy for the brand",
+            "source": "web:6"
+          },
+          {
+            "label": "No structured company data",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          }
+        ],
+        "missing_info": [
+          "Headcount is not confirmed; 175+ cafés suggests the company may be above the 10 to 500 range",
+          "Revenue sources disagree (₹325 crore headline versus an FY25 loss figure)",
+          "Funding figures conflict across sources and are unverified",
+          "Which online channels are already run in-house versus through marketplaces",
+          "Current e-commerce and order management stack beyond Shopify",
+          "Whether the 2027 IPO and Finland location claims are confirmed"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Online ordering is a core channel",
+            "evidence": "Order yours online now!",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Quick-commerce expansion pending",
+            "evidence": "Coming soon to quick-commerce platforms like Blinkit, Instamart, and Zepto",
+            "source": "web:3",
+            "verified": true,
+            "url": "https://bluetokaicoffee.com/products/signature-drop-specialty-coffee-concentrate"
+          },
+          {
+            "label": "Middle East expansion announced",
+            "evidence": "In July 2025, Blue Tokai Coffee Roasters announced plans to expand into the Middle East",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://finance.yahoo.com/news/blue-tokai-secures-25m-bridge-094532561.html"
+          },
+          {
+            "label": "Hiring for digital strategy",
+            "evidence": "Building a digital strategy for the brand",
+            "source": "web:6",
+            "verified": true,
+            "url": "https://www.instahyre.com/job-53638-digital-marketing-manager-at-blue-tokai-coffee-roasters-delhi/"
+          },
+          {
+            "label": "No structured company data",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of E-commerce",
+          "Digital Marketing Manager",
+          "Chief Operating Officer"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Blue Tokai and quick-commerce",
+        "body": "Hi,\n\nI saw Blue Tokai is coming soon to Blinkit, Instamart and Zepto, on top of pushing online ordering on your own site. Adding three platforms usually means more catalogue, pricing and stock updates to keep in sync.\n\nI also noticed your site has no Organization schema, so search engines and AI tools get little structured information about the brand.\n\nI'm Mitull at node6 Labs. We build websites, stores and automation, including syncing product data across channels. Would it be useful if I sent a short note on how we'd approach this?\n\nMitull",
+        "facts_used": [
+          "site",
+          "web:3",
+          "audit:entity_schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 93
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 299
+        },
+        {
+          "name": "Web research",
+          "ms": 14957
+        },
+        {
+          "name": "Claude decision",
+          "ms": 7442
+        },
+        {
+          "name": "Draft",
+          "ms": 2706
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "bluetokaicoffee.com",
+    "status": 200,
+    "ms": 28017,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 55,
+    "service": "digital_transformation",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bluetokaicoffee.com",
+      "company": "",
+      "audit": {
+        "earned": 80,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Blue Tokai Coffee Roasters sells single-estate Arabica coffee online and through its own cafés in India, and is expanding its roasteries, stores and wholesale business.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "digital_transformation",
+        "service_reason": "The company is growing across online, wholesale and café channels and is hiring for digital marketing, so a digital operations and data programme is the most likely lead.",
+        "buyer_roles": [
+          "Head of Digital",
+          "Chief Operating Officer",
+          "Head of E-commerce"
+        ],
+        "signals": [
+          {
+            "label": "Expanding to new markets",
+            "evidence": "In July 2025, Blue Tokai Coffee Roasters announced plans to expand into the Middle East through a partnership with Ambrosia Gulf.",
+            "source": "web:9"
+          },
+          {
+            "label": "Investing in operations expansion",
+            "evidence": "The fresh capital will be deployed to strengthen retail operations in India, expand roasteries and bakery facilities in Bengaluru and Gurugram",
+            "source": "web:10"
+          },
+          {
+            "label": "Building digital channels for B2C e-commerce",
+            "evidence": "deploying digital solutions across paid, owned and earned channels covering our B2C e-commerce business",
+            "source": "web:8"
+          },
+          {
+            "label": "No structured data for the business",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts between sources (201-500 vs 1001-5000)",
+          "Current dated digital or IT openings are not confirmed",
+          "E-commerce platform and tech stack are unknown",
+          "Whether an in-house engineering or digital team already exists",
+          "Budget and the named decision maker are unknown before a first message"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Digital transformation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Expanding to new markets",
+            "evidence": "In July 2025, Blue Tokai Coffee Roasters announced plans to expand into the Middle East through a partnership with Ambrosia Gulf.",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://finance.yahoo.com/news/blue-tokai-secures-25m-bridge-094532561.html"
+          },
+          {
+            "label": "Investing in operations expansion",
+            "evidence": "The fresh capital will be deployed to strengthen retail operations in India, expand roasteries and bakery facilities in Bengaluru and Gurugram",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://www.foodbusinessmea.com/blue-tokai-coffee-roasters-secures-us25m-bridge-funding-to-accelerate-expansion/"
+          },
+          {
+            "label": "Building digital channels for B2C e-commerce",
+            "evidence": "deploying digital solutions across paid, owned and earned channels covering our B2C e-commerce business",
+            "source": "web:8",
+            "verified": true,
+            "url": "https://www.instahyre.com/job-53638-digital-marketing-manager-at-blue-tokai-coffee-roasters-delhi/"
+          },
+          {
+            "label": "No structured data for the business",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of Digital",
+          "Chief Operating Officer",
+          "Head of E-commerce"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Blue Tokai's Middle East expansion and your web channels",
+        "body": "Hi,\n\nI saw that Blue Tokai announced plans in July 2025 to expand into the Middle East through a partnership with Ambrosia Gulf. Growth like that usually puts pressure on the digital side, especially a B2C e-commerce business that has to serve new markets.\n\nOne small thing I noticed: your site has no structured data (JSON-LD), so search engines get fewer clear signals about your products and stores.\n\nI build websites, stores and automation with node6 Labs. Would it be useful if I sent a short note on how to fix that?\n\nMitull",
+        "facts_used": [
+          "web:9",
+          "web:8",
+          "audit:schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 93
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 500
+        },
+        {
+          "name": "Web research",
+          "ms": 13506
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10846
+        },
+        {
+          "name": "Draft",
+          "ms": 3088
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "jyoticeramic.com",
+    "status": 200,
+    "ms": 24220,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "web_development",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://jyoticeramic.com",
+      "company": "",
+      "audit": {
+        "earned": 75,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Jyoti Ceramic Industries is a family-owned manufacturer of industrial and technical ceramics in Nashik, India, and per its website it exports 70% of production to over 55 countries.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "web_development",
+        "service_reason": "An export-led B2B manufacturer with a broad catalogue and a Request a Quote flow, but the site shows thin buyer-question content and no organization schema, so a rebuilt catalogue and enquiry site is the lead offer.",
+        "buyer_roles": [
+          "Managing Director",
+          "Export Sales Manager",
+          "Marketing Manager"
+        ],
+        "signals": [
+          {
+            "label": "Export-led business",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:4"
+          },
+          {
+            "label": "Quote-request path on site",
+            "evidence": "Request a Quote",
+            "source": "site"
+          },
+          {
+            "label": "Thin buyer FAQ",
+            "evidence": "1 question headings",
+            "source": "audit:faq"
+          },
+          {
+            "label": "No organization schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          }
+        ],
+        "missing_info": [
+          "Revenue conflicts across sources (FY2025 ₹107.57 Cr versus a $5.3M ZoomInfo figure)",
+          "Headcount differs by source (157 per EPFO data)",
+          "Current website platform and whether enquiries are tracked or routed",
+          "Whether the company has a current web or digital budget or in-house digital team",
+          "Export markets served through the Czech entity and which languages buyers need"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Export-led business",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://www.jyoticeramic.com/about.php"
+          },
+          {
+            "label": "Quote-request path on site",
+            "evidence": "Request a Quote",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Thin buyer FAQ",
+            "evidence": "1 question headings",
+            "source": "audit:faq",
+            "verified": true
+          },
+          {
+            "label": "No organization schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Managing Director",
+          "Export Sales Manager",
+          "Marketing Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Jyoti Ceramic's export buyers online",
+        "body": "Hello,\n\nI saw that Jyoti Ceramic exports 70% of its production to over 55 countries. For a business like that, the website is often the first thing a new overseas buyer checks before using the Request a Quote form.\n\nA quick look showed the site has no Organization schema and only a thin buyer FAQ. Both are small fixes that help buyers and search engines understand who you are and what you supply.\n\nI build websites, stores and automation with node6 Labs. Would you be open to a short note on what I would change first?\n\nMitull",
+        "facts_used": [
+          "web:4",
+          "site",
+          "audit:faq",
+          "audit:entity_schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 97
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 701
+        },
+        {
+          "name": "Web research",
+          "ms": 11504
+        },
+        {
+          "name": "Claude decision",
+          "ms": 8704
+        },
+        {
+          "name": "Draft",
+          "ms": 3246
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "jyoticeramic.com",
+    "status": 200,
+    "ms": 26217,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 60,
+    "service": "web_development",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://jyoticeramic.com",
+      "company": "",
+      "audit": {
+        "earned": 75,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Jyoti Ceramic Industries Pvt. Ltd. is a Nashik, India manufacturer of industrial and technical ceramics such as zirconia, alumina and ZTA, and it exports most of its production to customers abroad.",
+        "fit_tier": "B",
+        "fit_score": 60,
+        "service": "web_development",
+        "service_reason": "The export-led manufacturer has a brochure-style site with thin buyer content and no structured company data, so a website rebuild aimed at overseas buyer enquiries is the clearest lead.",
+        "buyer_roles": [
+          "Managing Director",
+          "Export Manager",
+          "Head of Sales"
+        ],
+        "signals": [
+          {
+            "label": "Export-led overseas sales",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:4"
+          },
+          {
+            "label": "Thin buyer FAQ",
+            "evidence": "Answers buyer questions (FAQ): 1 question headings",
+            "source": "audit:faq"
+          },
+          {
+            "label": "No structured company data",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "Recent revenue growth",
+            "evidence": "a growth of 17% compared to the previous year.",
+            "source": "web:10"
+          }
+        ],
+        "missing_info": [
+          "Whether the site takes online orders or only quote requests",
+          "Current enquiry volume and how leads are handled after the Request a Quote form",
+          "Which overseas markets bring the most enquiries",
+          "Headcount conflict: 157 employees on TheCompanyCheck versus 11 to 50 on ZoomInfo",
+          "Revenue conflict: INR 107.57 Cr on TheCompanyCheck versus $5.3M on ZoomInfo",
+          "Existing website and CMS platform, and whether a team manages it in-house",
+          "Recent hiring for digital, IT or operations roles"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 60,
+        "signals": [
+          {
+            "label": "Export-led overseas sales",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://www.jyoticeramic.com/about.php"
+          },
+          {
+            "label": "Thin buyer FAQ",
+            "evidence": "Answers buyer questions (FAQ): 1 question headings",
+            "source": "audit:faq",
+            "verified": true
+          },
+          {
+            "label": "No structured company data",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "Recent revenue growth",
+            "evidence": "a growth of 17% compared to the previous year.",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://www.thecompanycheck.com/company/jyoti-ceramic-industries-private-limited/U99999MH1973PTC016635"
+          }
+        ],
+        "roles": [
+          "Managing Director",
+          "Export Manager",
+          "Head of Sales"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Jyoti Ceramic's overseas buyers and your website",
+        "body": "Hello,\n\nI noticed Jyoti Ceramic exports 70% of its production to over 55 countries. For buyers in that many markets, the website is often the first place they check you out.\n\nWhen I looked at yours, the FAQ has only one question heading and there is no structured company data (Organization schema) for search engines to read. Both are small fixes that help new overseas buyers find you and trust you before they send a quote request.\n\nI build websites, stores and automation with node6 Labs. Would you be open to a short note on what I would change first?\n\nMitull",
+        "facts_used": [
+          "web:4",
+          "audit:faq",
+          "audit:entity_schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 101
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 308
+        },
+        {
+          "name": "Web research",
+          "ms": 12963
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9619
+        },
+        {
+          "name": "Draft",
+          "ms": 3267
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "jyoticeramic.com",
+    "status": 200,
+    "ms": 24507,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "web_development",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://jyoticeramic.com",
+      "company": "",
+      "audit": {
+        "earned": 75,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Jyoti Ceramic is a Nashik-based manufacturer of industrial and technical ceramics, including zirconia, alumina and machinable ceramic products. It exports to over 55 countries.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "web_development",
+        "service_reason": "The company sells mainly to businesses abroad through a site with a quote form, but the site lacks structured data and organization schema, so a B2B web rebuild is the most direct lead.",
+        "buyer_roles": [
+          "Managing Director",
+          "Head of Sales and Exports",
+          "Digital Marketing Manager"
+        ],
+        "signals": [
+          {
+            "label": "Export-led sales",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:4"
+          },
+          {
+            "label": "Quote-request enquiry form",
+            "evidence": "Request a Quote",
+            "source": "site"
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          },
+          {
+            "label": "Organization schema missing",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "No llms.txt file",
+            "evidence": "llms.txt file: Missing",
+            "source": "audit:llms_txt"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts between sources (approximately 157 employees in one source, 11-50 in another)",
+          "Revenue and growth figures need confirming against current filings",
+          "Whether the Request a Quote form routes into a CRM or inbox",
+          "Which customer industries generate the most enquiries",
+          "Whether dealers or distributors handle much of the export volume",
+          "Role and reach of the Czech entity mentioned on the contact list",
+          "Who currently owns the website and its budget"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Export-led sales",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://www.jyoticeramic.com/about.php"
+          },
+          {
+            "label": "Quote-request enquiry form",
+            "evidence": "Request a Quote",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "Organization schema missing",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "No llms.txt file",
+            "evidence": "llms.txt file: Missing",
+            "source": "audit:llms_txt",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Managing Director",
+          "Head of Sales and Exports",
+          "Digital Marketing Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Jyoti Ceramic's export buyers and your website",
+        "body": "Hello,\n\nJyoti Ceramic exports 70% of its production to over 55 countries, so I expect many buyers first meet the company through search and your website.\n\nI looked at the site and found no structured data and no Organization schema, which helps search engines and AI tools identify the business correctly. The Request a Quote form is already there, so this is a small fix.\n\nI build websites, stores and automation at node6 Labs. Would you be open to a short note on what I would change?\n\nMitull",
+        "facts_used": [
+          "web:4",
+          "site",
+          "audit:schema",
+          "audit:entity_schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 88
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 109
+        },
+        {
+          "name": "Web research",
+          "ms": 11960
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9538
+        },
+        {
+          "name": "Draft",
+          "ms": 2843
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "uniklinger.com",
+    "status": 200,
+    "ms": 22325,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "web_development",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://uniklinger.com",
+      "company": "",
+      "audit": {
+        "earned": 50,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Uni Klinger Limited, based in Pune, India, manufactures precision-engineered valves, steam traps and gasket materials for industrial customers such as refineries, chemical plants and pharmaceutical makers. It also offers steam engineering services such as energy audits and steam consultancy.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "web_development",
+        "service_reason": "The homepage is almost empty and the audit shows missing H1, meta description and structured data, so a website rebuild that explains products and captures enquiries is the clearest entry point.",
+        "buyer_roles": [
+          "Head of Marketing",
+          "Digital Marketing Manager",
+          "IT Manager"
+        ],
+        "signals": [
+          {
+            "label": "Almost no readable homepage text",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth"
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1"
+          },
+          {
+            "label": "No structured company data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          },
+          {
+            "label": "Missing meta description",
+            "evidence": "Meta description: Missing",
+            "source": "audit:meta_description"
+          },
+          {
+            "label": "New steam engineering services",
+            "evidence": "Based on the growing customer demands Uni Klinger has introduced services related to Steam Engineering",
+            "source": "web:4"
+          }
+        ],
+        "missing_info": [
+          "Current headcount, which conflicts across sources (LinkedIn 501-1,000, other sources about 200-500)",
+          "Whether the site takes online enquiries, quotes or orders",
+          "Whether a dealer or partner portal exists and how it is used",
+          "Current website platform and who maintains it",
+          "Budget and timing for any website project",
+          "Which product lines drive the most enquiries"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Almost no readable homepage text",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth",
+            "verified": true
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1",
+            "verified": true
+          },
+          {
+            "label": "No structured company data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "Missing meta description",
+            "evidence": "Meta description: Missing",
+            "source": "audit:meta_description",
+            "verified": true
+          },
+          {
+            "label": "New steam engineering services",
+            "evidence": "Based on the growing customer demands Uni Klinger has introduced services related to Steam Engineering",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://in.linkedin.com/company/uni-klinger"
+          }
+        ],
+        "roles": [
+          "Head of Marketing",
+          "Digital Marketing Manager",
+          "IT Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Uni Klinger homepage and steam engineering",
+        "body": "Hello,\n\nI saw that Uni Klinger has introduced services related to Steam Engineering. That is a useful new offer, but when I checked your homepage it has only about 8 words of readable text, no H1 heading, no meta description and no structured company data.\n\nThat makes it harder for search engines and new customers to understand what you do, including the new steam services.\n\nI build websites, stores and automation with node6 Labs, and could fix these basics.\n\nWould it be worth a short chat about this?\n\nMitull",
+        "facts_used": [
+          "web:4",
+          "audit:content_depth",
+          "audit:h1",
+          "audit:meta_description",
+          "audit:schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 89
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 131
+        },
+        {
+          "name": "Web research",
+          "ms": 11906
+        },
+        {
+          "name": "Claude decision",
+          "ms": 7476
+        },
+        {
+          "name": "Draft",
+          "ms": 2766
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "uniklinger.com",
+    "status": 200,
+    "ms": 22976,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 58,
+    "service": "web_development",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://uniklinger.com",
+      "company": "",
+      "audit": {
+        "earned": 50,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Uni Klinger Limited is an Indian manufacturer of fluid control products (valves, steam traps, strainers) and fluid sealing products (gaskets, sheets, packing). It sells to process industries such as refineries, chemical plants and pharmaceuticals.",
+        "fit_tier": "B",
+        "fit_score": 58,
+        "service": "web_development",
+        "service_reason": "The homepage has almost no readable text, no H1, no structured data and no FAQ content, so a rebuilt, search-readable website is the clearest need the audits show.",
+        "buyer_roles": [
+          "Marketing Manager",
+          "Head of Digital",
+          "Operations Director"
+        ],
+        "signals": [
+          {
+            "label": "Thin homepage text",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth"
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1"
+          },
+          {
+            "label": "No organization structured data",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "No buyer FAQ content",
+            "evidence": "Answers buyer questions (FAQ): 0 question headings",
+            "source": "audit:faq"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources: LinkedIn 501-1,000, Revelio 548, another aggregator 51-200",
+          "Current website platform and whether it has any enquiry or quote form",
+          "How buyers currently request quotes and place orders (catalogue, IndiaMART, email or phone)",
+          "Which of the five ZoomInfo locations are active",
+          "Whether the website has a planned redesign or a named digital owner"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 58,
+        "signals": [
+          {
+            "label": "Thin homepage text",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth",
+            "verified": true
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1",
+            "verified": true
+          },
+          {
+            "label": "No organization structured data",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "No buyer FAQ content",
+            "evidence": "Answers buyer questions (FAQ): 0 question headings",
+            "source": "audit:faq",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Marketing Manager",
+          "Head of Digital",
+          "Operations Director"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Your homepage has only 8 words",
+        "body": "Hi,\n\nI ran a quick check on your website and found the homepage has about 8 words of readable text, no H1 heading, no organization structured data and no buyer FAQ content.\n\nThat makes it hard for search engines and AI tools to understand what you sell, and hard for buyers to find answers before they enquire.\n\nI'm Mitull from node6 Labs. We build websites, stores and automation, and fixing this is usually a small project.\n\nWould it be useful if I sent a short list of the fixes I'd make first?\n\nMitull",
+        "facts_used": [
+          "audit:content_depth",
+          "audit:h1",
+          "audit:entity_schema",
+          "audit:faq"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 93
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 138
+        },
+        {
+          "name": "Web research",
+          "ms": 12535
+        },
+        {
+          "name": "Claude decision",
+          "ms": 7533
+        },
+        {
+          "name": "Draft",
+          "ms": 2716
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "uniklinger.com",
+    "status": 200,
+    "ms": 23076,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 58,
+    "service": "web_development",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://uniklinger.com",
+      "company": "",
+      "audit": {
+        "earned": 50,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Uni Klinger Limited manufactures precision-engineered valves, steam traps and gaskets, and sells them B2B to process industries such as oil refineries, chemical plants and pharmaceuticals.",
+        "fit_tier": "B",
+        "fit_score": 58,
+        "service": "web_development",
+        "service_reason": "The homepage has almost no readable text and no H1 or meta description, so a website rebuild is the clearest visible gap, even though the B2B business itself is well defined.",
+        "buyer_roles": [
+          "Head of Marketing",
+          "Digital Marketing Manager",
+          "IT Manager"
+        ],
+        "signals": [
+          {
+            "label": "Almost no readable homepage text",
+            "evidence": "8 words",
+            "source": "audit:content_depth"
+          },
+          {
+            "label": "No H1 heading on homepage",
+            "evidence": "No H1",
+            "source": "audit:h1"
+          },
+          {
+            "label": "Missing meta description",
+            "evidence": "Missing",
+            "source": "audit:meta_description"
+          },
+          {
+            "label": "Steam engineering services introduced to meet customer demand",
+            "evidence": "Based on the growing customer demands Uni Klinger has introduced services related to Steam Engineering like Energy audits, Steam Consultancy",
+            "source": "web:4"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources: LinkedIn 501-1,000, Indeed 201 to 500, TheCompanyCheck 258, Levels.fyi 330",
+          "Revenue estimate of $54.9 million from ZoomInfo is unverified",
+          "Whether the company sells or enquires online, and whether it has any online ordering or quote process",
+          "Current IT team size, which ZoomInfo lists as 4 IT staff but may be outdated",
+          "Whether the 24x7 steam trap monitoring product has a digital customer portal"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 58,
+        "signals": [
+          {
+            "label": "Almost no readable homepage text",
+            "evidence": "8 words",
+            "source": "audit:content_depth",
+            "verified": true
+          },
+          {
+            "label": "No H1 heading on homepage",
+            "evidence": "No H1",
+            "source": "audit:h1",
+            "verified": true
+          },
+          {
+            "label": "Missing meta description",
+            "evidence": "Missing",
+            "source": "audit:meta_description",
+            "verified": true
+          },
+          {
+            "label": "Steam engineering services introduced to meet customer demand",
+            "evidence": "Based on the growing customer demands Uni Klinger has introduced services related to Steam Engineering like Energy audits, Steam Consultancy",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://in.linkedin.com/company/uni-klinger"
+          }
+        ],
+        "roles": [
+          "Head of Marketing",
+          "Digital Marketing Manager",
+          "IT Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Uni Klinger homepage text",
+        "body": "Hi,\n\nUni Klinger has added steam engineering services like energy audits and steam consultancy because customers asked for them. But your homepage has almost no readable text (8 words), no H1 heading and no meta description. That makes it hard for search engines and new buyers to see those services.\n\nI build websites, stores and automation with node6 Labs, and fixing this is usually a small job: clear homepage copy, a proper heading and a meta description.\n\nWould you be open to a short note on what I would change?\n\nMitull",
+        "facts_used": [
+          "audit:content_depth",
+          "audit:h1",
+          "audit:meta_description",
+          "web:4"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 91
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 133
+        },
+        {
+          "name": "Web research",
+          "ms": 12991
+        },
+        {
+          "name": "Claude decision",
+          "ms": 7245
+        },
+        {
+          "name": "Draft",
+          "ms": 2632
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "thewholetruthfoods.com",
+    "status": 200,
+    "ms": 25955,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 58,
+    "service": "ecommerce",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://thewholetruthfoods.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "The Whole Truth Foods is a clean-label food brand selling protein powders, protein bars, muesli and nut spreads. It began as a D2C brand selling mainly through its own website.",
+        "fit_tier": "B",
+        "fit_score": 58,
+        "service": "ecommerce",
+        "service_reason": "The company sells mainly through its own online store and is hiring product and operations roles, so store and checkout improvements are the most likely entry point.",
+        "buyer_roles": [
+          "Head of E-commerce",
+          "Head of Digital",
+          "Product Manager, D2C"
+        ],
+        "signals": [
+          {
+            "label": "Online store with secure payments",
+            "evidence": "Order online from The Whole Truth Foods with secure payment options",
+            "source": "site"
+          },
+          {
+            "label": "D2C-first online sales",
+            "evidence": "The Whole Truth began as a D2C-first brand, selling primarily through its own website.",
+            "source": "web:5"
+          },
+          {
+            "label": "Cash on delivery and multiple payment methods",
+            "evidence": "Securely pay using: Oh! and Cash On Delivery too :)",
+            "source": "site"
+          },
+          {
+            "label": "Operations hiring in planning",
+            "evidence": "Lead – Demand Planning & S&OP",
+            "source": "web:9"
+          }
+        ],
+        "missing_info": [
+          "Current e-commerce platform and checkout setup",
+          "Whether an in-house team already runs the store",
+          "Conversion and traffic data for the online store",
+          "Headcount differs by source (325 on Inc42, 315 on Bebee, 500 on PitchBook)",
+          "Revenue and funding totals differ by source",
+          "Which specific store problem the company wants solved"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 58,
+        "signals": [
+          {
+            "label": "Online store with secure payments",
+            "evidence": "Order online from The Whole Truth Foods with secure payment options",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "D2C-first online sales",
+            "evidence": "The Whole Truth began as a D2C-first brand, selling primarily through its own website.",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://startupwired.com/2026/02/06/the-whole-truth-indias-clean-label-food-startup-rise/"
+          },
+          {
+            "label": "Cash on delivery and multiple payment methods",
+            "evidence": "Securely pay using: Oh! and Cash On Delivery too :)",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Operations hiring in planning",
+            "evidence": "Lead – Demand Planning & S&OP",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://bebee.com/in/companies/the-whole-truth-foods"
+          }
+        ],
+        "roles": [
+          "Head of E-commerce",
+          "Head of Digital",
+          "Product Manager, D2C"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Your D2C site and cash on delivery orders",
+        "body": "Hi,\n\nThe Whole Truth began as a D2C-first brand, selling mainly through its own website. Your store also offers cash on delivery alongside other payment methods, which usually means more order handling behind the scenes.\n\nI'm Mitull from node6 Labs. We build websites, stores and automation, including order and checkout workflows that cut manual work for e-commerce teams.\n\nI don't know how your store is set up today, so this may not apply. Is improving the online store or its automation something your team is looking at this year?\n\nMitull",
+        "facts_used": [
+          "web:5",
+          "site"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 90
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 187
+        },
+        {
+          "name": "Web research",
+          "ms": 13275
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9254
+        },
+        {
+          "name": "Draft",
+          "ms": 3141
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "thewholetruthfoods.com",
+    "status": 200,
+    "ms": 25124,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "ecommerce",
+    "signals": 4,
+    "verified": 2,
+    "web_verified": 1,
+    "overrides": [
+      "2 signals could not be matched to the source and were marked unverified."
+    ],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://thewholetruthfoods.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "The Whole Truth Foods makes clean-label protein powders, protein bars, muesli and nut spreads, and sells them mainly direct to consumers through its own online store.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "ecommerce",
+        "service_reason": "The company already runs an online store and is hiring for D2C, so a store and conversion review is the most direct entry point.",
+        "buyer_roles": [
+          "Head of D2C",
+          "Head of E-commerce",
+          "Chief Technology Officer"
+        ],
+        "signals": [
+          {
+            "label": "Homepage has no buyer question headings",
+            "evidence": "0 question headings",
+            "source": "audit:faq"
+          },
+          {
+            "label": "Delivery availability gated by pincode",
+            "evidence": "Add your pincode to see what's available in your area.",
+            "source": "site"
+          },
+          {
+            "label": "Hiring for D2C roles",
+            "evidence": "D2C",
+            "source": "web:7"
+          },
+          {
+            "label": "Portfolio expansion",
+            "evidence": "expanded its portfolio of protein bars, powders, nut butters and dark chocolates",
+            "source": "web:2"
+          }
+        ],
+        "missing_info": [
+          "Current e-commerce platform and checkout stack",
+          "Whether an in-house tech team already handles store changes",
+          "Confirmed headcount, since sources range from 175 to 500",
+          "Current conversion rate and online revenue share",
+          "Named buyer for D2C or e-commerce"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Homepage has no buyer question headings",
+            "evidence": "0 question headings",
+            "source": "audit:faq",
+            "verified": true
+          },
+          {
+            "label": "Delivery availability gated by pincode",
+            "evidence": "Add your pincode to see what's available in your area.",
+            "source": "site",
+            "verified": false
+          },
+          {
+            "label": "Hiring for D2C roles",
+            "evidence": "D2C",
+            "source": "web:7",
+            "verified": false
+          },
+          {
+            "label": "Portfolio expansion",
+            "evidence": "expanded its portfolio of protein bars, powders, nut butters and dark chocolates",
+            "source": "web:2",
+            "verified": true,
+            "url": "https://www.storyboard18.com/brand-marketing/the-whole-truth-raises-51-million-in-series-d-funding-led-by-sofina-sauce-vc-88808.htm"
+          }
+        ],
+        "roles": [
+          "Head of D2C",
+          "Head of E-commerce",
+          "Chief Technology Officer"
+        ],
+        "overrides": [
+          "2 signals could not be matched to the source and were marked unverified."
+        ]
+      },
+      "draft": {
+        "subject": "Question headings on your homepage",
+        "body": "Hi,\n\nI noticed your brand has expanded its portfolio of protein bars, powders, nut butters and dark chocolates. With a range that wide, shoppers often arrive unsure which product fits them.\n\nYour homepage currently has no buyer question headings, such as \"Which protein powder is right for me?\" Those answers can help people choose faster and can also help your pages show up in search.\n\nI build websites, stores and automation at node6 Labs. Would it be useful if I sent over two or three example question headings for your homepage?\n\nMitull",
+        "facts_used": [
+          "web:2",
+          "audit:faq"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 92
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 199
+        },
+        {
+          "name": "Web research",
+          "ms": 13244
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9188
+        },
+        {
+          "name": "Draft",
+          "ms": 2435
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "thewholetruthfoods.com",
+    "status": 200,
+    "ms": 23551,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "ecommerce",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://thewholetruthfoods.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "The Whole Truth Foods is a Mumbai-based clean-label food brand selling protein powders, protein bars, muesli and nut spreads. Its revenue comes mainly from direct online sales alongside marketplaces, quick commerce and offline retail.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "ecommerce",
+        "service_reason": "The brand already sells online and is hiring e-commerce and conversion roles, so the clearest opening is improving its online store and buying experience.",
+        "buyer_roles": [
+          "Head of E-commerce",
+          "Chief Technology Officer",
+          "Chief Product Officer"
+        ],
+        "signals": [
+          {
+            "label": "Direct-to-consumer sales channel",
+            "evidence": "Direct product sales across D2C, marketplace, quick commerce and offline retail.",
+            "source": "web:4"
+          },
+          {
+            "label": "Digital growth",
+            "evidence": "has scaled to over ₹60 crore in revenue with strong digital growth.",
+            "source": "web:12"
+          },
+          {
+            "label": "No buyer FAQ on homepage",
+            "evidence": "0 question headings",
+            "source": "audit:faq"
+          },
+          {
+            "label": "Online store with multiple payment options",
+            "evidence": "Securely pay using: Oh! and Cash On Delivery too :)",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Current e-commerce platform and whether an in-house tech team exists",
+          "Headcount conflicts across sources (500, 299 and 253)",
+          "Revenue conflicts across sources (₹70.6 crore FY24 and over ₹60 crore)",
+          "Which digital or conversion problems the company wants solved",
+          "Budget and timing for any project",
+          "Whether the 2026 IPO reports are confirmed"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Direct-to-consumer sales channel",
+            "evidence": "Direct product sales across D2C, marketplace, quick commerce and offline retail.",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://lapaasvoice.com/startup/the-whole-truth-foods/"
+          },
+          {
+            "label": "Digital growth",
+            "evidence": "has scaled to over ₹60 crore in revenue with strong digital growth.",
+            "source": "web:12",
+            "verified": true,
+            "url": "https://ebusinessindia.wordpress.com/2026/02/06/how-a-former-unilever-marketer-built-the-whole-truth-into-a-%E2%82%B960-cr-digital-first-d2c-brand/"
+          },
+          {
+            "label": "No buyer FAQ on homepage",
+            "evidence": "0 question headings",
+            "source": "audit:faq",
+            "verified": true
+          },
+          {
+            "label": "Online store with multiple payment options",
+            "evidence": "Securely pay using: Oh! and Cash On Delivery too :)",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of E-commerce",
+          "Chief Technology Officer",
+          "Chief Product Officer"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Homepage questions for your D2C store",
+        "body": "Hi,\n\nI saw that your business has scaled to over ₹60 crore in revenue with strong digital growth, and that you sell across D2C, marketplace, quick commerce and offline retail.\n\nWhile looking at your online store, I noticed the homepage has no buyer FAQ. At that scale, a short FAQ covering delivery, returns and Cash On Delivery can answer common doubts before shoppers leave or contact support.\n\nI'm Mitull from node6 Labs. We build websites, stores and automation for e-commerce teams.\n\nWould it be useful if I sent a quick example of how this could look on your store?\n\nMitull",
+        "facts_used": [
+          "web:12",
+          "web:4",
+          "audit:faq",
+          "site"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 100
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 162
+        },
+        {
+          "name": "Web research",
+          "ms": 10915
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9416
+        },
+        {
+          "name": "Draft",
+          "ms": 2977
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "bakingo.com",
+    "status": 200,
+    "ms": 25653,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 58,
+    "service": "automation",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bakingo.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Bakingo is an online cake and dessert delivery brand in India that sells to consumers through its website and app. It runs a network of kitchens across many cities and recently raised growth capital to expand.",
+        "fit_tier": "B",
+        "fit_score": 58,
+        "service": "automation",
+        "service_reason": "The quoted expansion across 100 kitchens and 2-hour delivery in 13 cities points to operations coordination (production, dispatch, stock across sites) that automation can streamline, while the site already handles online ordering.",
+        "buyer_roles": [
+          "Head of Operations",
+          "Head of Supply Chain",
+          "Chief Technology Officer"
+        ],
+        "signals": [
+          {
+            "label": "Growth capital for expansion",
+            "evidence": "has raised its first-ever round of growth capital of $16 million from private equity firm Faering Capital",
+            "source": "web:12"
+          },
+          {
+            "label": "Large distributed kitchen network",
+            "evidence": "broader bakery network spanning more than 100 kitchens across 30-plus cities",
+            "source": "web:7"
+          },
+          {
+            "label": "Fast multi-city delivery promise",
+            "evidence": "deliver within 2 hours in 13 cities",
+            "source": "web:4"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts between sources (51-200 vs 501-1000), so fit against the 10-500 range is unclear",
+          "Revenue figure rests on a 2023 article and has not been verified",
+          "The 2026 funding figure comes from a single secondary source and needs checking",
+          "Which order, production, inventory and forecasting systems are in use today",
+          "Whether the in-house engineering team would build internally, reducing outside demand",
+          "Whether the 100-kitchen network figure is current"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 58,
+        "signals": [
+          {
+            "label": "Growth capital for expansion",
+            "evidence": "has raised its first-ever round of growth capital of $16 million from private equity firm Faering Capital",
+            "source": "web:12",
+            "verified": true,
+            "url": "https://www.business-standard.com/companies/news/bakingo-raises-16-mn-from-faering-capital-eyes-national-expansion-123111300551_1.html"
+          },
+          {
+            "label": "Large distributed kitchen network",
+            "evidence": "broader bakery network spanning more than 100 kitchens across 30-plus cities",
+            "source": "web:7",
+            "verified": true,
+            "url": "https://lapaasvoice.com/bakingo-raise-%E2%82%B9100-crore-valuation-2-6x-to-rs-1643-crore/"
+          },
+          {
+            "label": "Fast multi-city delivery promise",
+            "evidence": "deliver within 2 hours in 13 cities",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://indianstartupnews.com/funding/bakingo-raises-usd-16-million-growth-capital-from-faering-capital-1694757"
+          }
+        ],
+        "roles": [
+          "Head of Operations",
+          "Head of Supply Chain",
+          "Chief Technology Officer"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Running 100+ kitchens as volume grows",
+        "body": "Hi,\n\nI saw the company has raised its first growth round of $16 million from Faering Capital, and that the bakery network spans more than 100 kitchens across 30-plus cities.\n\nWith a 2-hour delivery promise in 13 cities, I imagine order routing, kitchen production and inventory updates get harder to coordinate as you expand. I build websites, stores and automation with node6 Labs, and we often connect those steps so fewer things need manual follow-up.\n\nWould it be worth a short chat to see if any of that is useful for your team?\n\nMitull",
+        "facts_used": [
+          "web:12",
+          "web:7",
+          "web:4"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 94
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 692
+        },
+        {
+          "name": "Web research",
+          "ms": 12176
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9824
+        },
+        {
+          "name": "Draft",
+          "ms": 2818
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "bakingo.com",
+    "status": 200,
+    "ms": 25117,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 66,
+    "service": "automation",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bakingo.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Bakingo is an India-based online bakery that sells cakes, pastries and desserts to consumers for celebrations, delivered from dark kitchens across many cities.",
+        "fit_tier": "B",
+        "fit_score": 66,
+        "service": "automation",
+        "service_reason": "The company is adding dark kitchens and cities, which points to operational workflows such as order routing, forecasting and supply chain coordination that automation could address.",
+        "buyer_roles": [
+          "Head of Operations",
+          "Chief Technology Officer",
+          "Supply Chain Manager"
+        ],
+        "signals": [
+          {
+            "label": "Dark kitchen footprint growing",
+            "evidence": "expanding from 75 dark kitchens to 150 and entering 10 new cities",
+            "source": "web:9"
+          },
+          {
+            "label": "Recent multi-city expansion",
+            "evidence": "has recently expanded its presence to Jaipur, Chandigarh, Lucknow, and various smaller cities",
+            "source": "web:5"
+          },
+          {
+            "label": "Plans for new physical stores",
+            "evidence": "plans to open exclusive brand stores for customers",
+            "source": "web:6"
+          }
+        ],
+        "missing_info": [
+          "Current dark kitchen count and city count, since sources conflict",
+          "Current headcount, since sources range from 1-10 to 51-200",
+          "Existing order management, forecasting and POS systems in use",
+          "Whether the Frontend Developer (Angular) listing belongs to Bakingo",
+          "Which technology areas the recent funding is earmarked for",
+          "Who owns technology and operations decisions today"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 66,
+        "signals": [
+          {
+            "label": "Dark kitchen footprint growing",
+            "evidence": "expanding from 75 dark kitchens to 150 and entering 10 new cities",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://www.restaurantindia.in/news/bakingo-to-expand-its-dark-kitchen-biz-raises-16-mn-from-faering-capital.n21386"
+          },
+          {
+            "label": "Recent multi-city expansion",
+            "evidence": "has recently expanded its presence to Jaipur, Chandigarh, Lucknow, and various smaller cities",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://vygrnews.com/investing/indian-food-platform-bakingo-gets--16-million-funding--plans-expansion"
+          },
+          {
+            "label": "Plans for new physical stores",
+            "evidence": "plans to open exclusive brand stores for customers",
+            "source": "web:6",
+            "verified": true,
+            "url": "https://www.siliconindia.com/finance/news/bakingo-secured-16-million-from-faering-capital-to-expand-its-dark-kitchens-nid-226437.html"
+          }
+        ],
+        "roles": [
+          "Head of Operations",
+          "Chief Technology Officer",
+          "Supply Chain Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Automation for 75 to 150 dark kitchens",
+        "body": "Hi,\n\nI saw that the company is expanding from 75 dark kitchens to 150 and entering 10 new cities. Growth like that usually means order handling, stock updates and kitchen reporting get harder to manage by hand across sites.\n\nI'm Mitull from node6 Labs. We build websites, stores and automation, including workflows that connect orders, inventory and daily reports so teams spend less time on manual checks.\n\nWould it be worth a short chat about this, yes or no?\n\nMitull",
+        "facts_used": [
+          "web:9"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 80
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 553
+        },
+        {
+          "name": "Web research",
+          "ms": 12483
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9217
+        },
+        {
+          "name": "Draft",
+          "ms": 2770
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "bakingo.com",
+    "status": 200,
+    "ms": 25606,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 58,
+    "service": "automation",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 4,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bakingo.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Bakingo is an online bakery that delivers cakes, pastries, cookies and customised desserts across Indian cities. It runs a network of dark kitchens and is also opening franchise formats.",
+        "fit_tier": "B",
+        "fit_score": 58,
+        "service": "automation",
+        "service_reason": "The fast-growing dark-kitchen and multi-city network points to manual coordination work that automation could reduce.",
+        "buyer_roles": [
+          "Chief Operating Officer",
+          "Head of Operations",
+          "Chief Technology Officer"
+        ],
+        "signals": [
+          {
+            "label": "Expanding dark kitchen network",
+            "evidence": "expanding from 75 dark kitchens to 150 and entering 10 new cities",
+            "source": "web:9"
+          },
+          {
+            "label": "Fresh growth funding",
+            "evidence": "Raises ₹100 Cr Series B from Faering Capital",
+            "source": "web:11"
+          },
+          {
+            "label": "Multi-city delivery footprint",
+            "evidence": "Currently, we are delivering cakes in Gurgaon, Delhi, Noida, Ghaziabad, Bangalore, Hyderabad, Mumbai, Kolkata, Chennai",
+            "source": "site"
+          },
+          {
+            "label": "Reach across many cities",
+            "evidence": "Bakingo operates across more than 30 cities",
+            "source": "web:8"
+          },
+          {
+            "label": "Franchise expansion model",
+            "evidence": "Bakingo keeps a franchise enquiry page that names four formats",
+            "source": "web:5"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources (51-200 on iimjobs versus much larger revenue), so current team size is unclear",
+          "Revenue figures (about ₹300 Cr from operations, ₹16.5 Cr loss in FY25) need confirming from a primary source",
+          "Whether an in-house tech team already handles order, kitchen and forecasting systems",
+          "Current vendors and tools used for kitchen, delivery and franchise operations",
+          "Which operations or technology leader owns budget for this work",
+          "Current city count, since sources give 14+, 30+ and 13 cities"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 58,
+        "signals": [
+          {
+            "label": "Expanding dark kitchen network",
+            "evidence": "expanding from 75 dark kitchens to 150 and entering 10 new cities",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://www.restaurantindia.in/news/bakingo-to-expand-its-dark-kitchen-biz-raises-16-mn-from-faering-capital.n21386"
+          },
+          {
+            "label": "Fresh growth funding",
+            "evidence": "Raises ₹100 Cr Series B from Faering Capital",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://franchisechuno.com/franchise/bakingo"
+          },
+          {
+            "label": "Multi-city delivery footprint",
+            "evidence": "Currently, we are delivering cakes in Gurgaon, Delhi, Noida, Ghaziabad, Bangalore, Hyderabad, Mumbai, Kolkata, Chennai",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Reach across many cities",
+            "evidence": "Bakingo operates across more than 30 cities",
+            "source": "web:8",
+            "verified": true,
+            "url": "https://lapaasvoice.com/bakingo-raise-%E2%82%B9100-crore-valuation-2-6x-to-rs-1643-crore/"
+          },
+          {
+            "label": "Franchise expansion model",
+            "evidence": "Bakingo keeps a franchise enquiry page that names four formats",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://franchisechuno.com/franchise/bakingo"
+          }
+        ],
+        "roles": [
+          "Chief Operating Officer",
+          "Head of Operations",
+          "Chief Technology Officer"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Scaling from 75 to 150 dark kitchens",
+        "body": "Hi,\n\nI saw Bakingo plans to grow from 75 dark kitchens to 150 and enter 10 new cities, after the Series B from Faering Capital.\n\nDoubling kitchens usually means order routing, stock checks and franchise onboarding get harder to run by hand. I'm Mitull at node6 Labs, and we build websites, stores and automation that take that kind of repeat work off ops teams.\n\nI don't know what you already have in place, so I won't guess. Is manual coordination across kitchens something you're looking to reduce this year?\n\nMitull",
+        "facts_used": [
+          "web:9",
+          "web:11"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 90
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 562
+        },
+        {
+          "name": "Web research",
+          "ms": 10999
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10925
+        },
+        {
+          "name": "Draft",
+          "ms": 2963
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  },
+  {
+    "website": "wonderchef.com",
+    "status": 200,
+    "ms": 29575,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "ecommerce",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://wonderchef.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Wonderchef is a Mumbai-based kitchenware and small kitchen appliance brand that sells through retail stores, exclusive outlets and online channels in India, with reported reach in 15 countries.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "ecommerce",
+        "service_reason": "The company already sells online but depends heavily on marketplaces, and its hiring and launch activity point to a need for a stronger direct storefront and operations setup.",
+        "buyer_roles": [
+          "Head of E-commerce",
+          "Digital Marketing Head",
+          "Chief Operating Officer"
+        ],
+        "signals": [
+          {
+            "label": "Marketplace-dependent online sales",
+            "evidence": "Full ownership of end-to-end performance marketing strategies for Marketplaces (Amazon, Flipkart, Myntra, Nykaa, etc",
+            "source": "web:5"
+          },
+          {
+            "label": "Aggressive revenue growth target",
+            "evidence": "aims for ₹1,000 crore sales by 2026",
+            "source": "web:10"
+          },
+          {
+            "label": "Missing organization schema on site",
+            "evidence": "Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "Frequent product launches on site",
+            "evidence": "New Launch",
+            "source": "site"
+          },
+          {
+            "label": "Delivery expansion push on storefront",
+            "evidence": "Next Day Delivery - NOW IN MUMBAI! Check Now",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Current website tech stack and who maintains the online store",
+          "Whether the direct store or marketplaces drive most online revenue",
+          "Conflicting manufacturing model: outsourced manufacturing versus four in-house units",
+          "Conflicting headcount sources (230 versus 201–500 versus 510)",
+          "Conflicting total funding figures ($30M versus $50M)",
+          "Scope and timing of the Thyme lifestyle brand launch and whether it needs its own storefront",
+          "Current agency or vendor relationships for web and ecommerce work"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Marketplace-dependent online sales",
+            "evidence": "Full ownership of end-to-end performance marketing strategies for Marketplaces (Amazon, Flipkart, Myntra, Nykaa, etc",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://in.talent.com/view?id=624921413727427452"
+          },
+          {
+            "label": "Aggressive revenue growth target",
+            "evidence": "aims for ₹1,000 crore sales by 2026",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://h4enews.com/wonderchef-fy25-revenue-profit-target-2026/"
+          },
+          {
+            "label": "Missing organization schema on site",
+            "evidence": "Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "Frequent product launches on site",
+            "evidence": "New Launch",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Delivery expansion push on storefront",
+            "evidence": "Next Day Delivery - NOW IN MUMBAI! Check Now",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of E-commerce",
+          "Digital Marketing Head",
+          "Chief Operating Officer"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Marketplaces and your own store",
+        "body": "Hi,\n\nI noticed you're hiring for performance marketing across Amazon, Flipkart, Myntra and Nykaa, and that you're aiming for ₹1,000 crore in sales by 2026. With that much revenue running through marketplaces, your own storefront can be the place where repeat buyers settle, especially with launches and Next Day Delivery in Mumbai to promote.\n\nI'm Mitull at node6 Labs. We build websites, stores and automation for ecommerce teams.\n\nIs growing direct store sales a priority this year?\n\nMitull",
+        "facts_used": [
+          "web:5",
+          "web:10",
+          "site"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 78
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 1271
+        },
+        {
+          "name": "Web research",
+          "ms": 14534
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10539
+        },
+        {
+          "name": "Draft",
+          "ms": 3080
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "wonderchef.com",
+    "status": 200,
+    "ms": 20879,
+    "error": null,
+    "route": "manual_review",
+    "tier": "C",
+    "score": 30,
+    "service": "web_development",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://wonderchef.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Wonderchef is a Mumbai-based kitchen cookware and appliance brand. It sells through about 20,000 retail outlets, Blinkit and its own online store.",
+        "fit_tier": "C",
+        "fit_score": 30,
+        "service": "web_development",
+        "service_reason": "The site has no Organization or LocalBusiness structured data, which is a visible gap in an otherwise working online store.",
+        "buyer_roles": [
+          "Head of Digital Marketing",
+          "E-commerce Manager",
+          "IT Manager"
+        ],
+        "signals": [
+          {
+            "label": "Missing organization schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "Limited structured data",
+            "evidence": "Types: Website, SearchAction, EntryPoint",
+            "source": "audit:schema"
+          },
+          {
+            "label": "Retail-led sales footprint",
+            "evidence": "available in over 20,000 retail outlets nationwide",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Which e-commerce platform runs the online store and how much revenue comes from it",
+          "Whether the company has any open digital, IT or e-commerce roles",
+          "Headcount conflicts across sources (230, 501 to 1,000, 1,067)",
+          "Revenue and funding figures conflict across sources",
+          "Whether the AI interest in smarter appliances is backed by a real project",
+          "Who owns the website budget and decisions"
+        ],
+        "next_step": "manual_review",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "manual_review",
+        "tier": "C",
+        "score": 30,
+        "signals": [
+          {
+            "label": "Missing organization schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "Limited structured data",
+            "evidence": "Types: Website, SearchAction, EntryPoint",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "Retail-led sales footprint",
+            "evidence": "available in over 20,000 retail outlets nationwide",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of Digital Marketing",
+          "E-commerce Manager",
+          "IT Manager"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 907
+        },
+        {
+          "name": "Web research",
+          "ms": 11405
+        },
+        {
+          "name": "Claude decision",
+          "ms": 8486
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "wonderchef.com",
+    "status": 200,
+    "ms": 30011,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "ecommerce",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://wonderchef.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Wonderchef is a Mumbai-based kitchen cookware and appliance brand that sells through its own online store, marketplaces, quick-commerce apps and retail outlets. It also plans a new lifestyle and home appliance brand.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "ecommerce",
+        "service_reason": "The company already sells online but is hiring for marketplace and performance roles, so an ecommerce partner could help run its D2C store and channel operations.",
+        "buyer_roles": [
+          "Head of E-commerce",
+          "Head of Digital Marketing",
+          "Chief Operating Officer"
+        ],
+        "signals": [
+          {
+            "label": "Marketplace-led sales hiring",
+            "evidence": "Your success will be measured by ROAS, Market Share (Share of Voice), and the efficiency of our customer acquisition across platforms like Amazon, Fli",
+            "source": "web:4"
+          },
+          {
+            "label": "New brand launch",
+            "evidence": "is diversifying his cookware and kitchen appliance brand, Wonderchef, by",
+            "source": "web:7"
+          },
+          {
+            "label": "Quick-commerce delivery push",
+            "evidence": "Next Day Delivery - NOW IN MUMBAI! Check Now",
+            "source": "site"
+          },
+          {
+            "label": "Large product catalogue",
+            "evidence": "Wonderchef now offers more than 200 products.",
+            "source": "web:2"
+          }
+        ],
+        "missing_info": [
+          "Current ecommerce platform and in-house team size",
+          "Which marketplaces and quick-commerce channels are run in-house versus by agencies",
+          "Headcount conflicts across sources (230, 600, 817)",
+          "Revenue and funding details conflict across sources",
+          "Scope and timing of the new lifestyle brand launch",
+          "Budget and decision process"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Marketplace-led sales hiring",
+            "evidence": "Your success will be measured by ROAS, Market Share (Share of Voice), and the efficiency of our customer acquisition across platforms like Amazon, Fli",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://in.talent.com/view?id=624921413727427452"
+          },
+          {
+            "label": "New brand launch",
+            "evidence": "is diversifying his cookware and kitchen appliance brand, Wonderchef, by",
+            "source": "web:7",
+            "verified": true,
+            "url": "https://www.newsbytesapp.com/news/lifestyle/sanjeev-kapoor-expands-wonderchef/story"
+          },
+          {
+            "label": "Quick-commerce delivery push",
+            "evidence": "Next Day Delivery - NOW IN MUMBAI! Check Now",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Large product catalogue",
+            "evidence": "Wonderchef now offers more than 200 products.",
+            "source": "web:2",
+            "verified": true,
+            "url": "https://startuppedia.in/startup-stories/chef-sanjeev-kapoors-kitchenware-brand-wonderchef-grows-to-421-cr-revenue-with-44-cr-profit-in-fy25-aiming-for-1000-cr-by-2026-10905737"
+          }
+        ],
+        "roles": [
+          "Head of E-commerce",
+          "Head of Digital Marketing",
+          "Chief Operating Officer"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Wonderchef next day delivery in Mumbai",
+        "body": "Hi,\n\nI saw Wonderchef is pushing Next Day Delivery in Mumbai, and that you're hiring for marketplace roles measured on ROAS and share of voice across platforms like Amazon. With more than 200 products, keeping the own site competitive with marketplaces seems like a real job.\n\nI'm Mitull at node6 Labs. We build websites, stores and automation, including tools that keep catalogue, pricing and stock consistent across channels.\n\nWould it be worth a short chat to see if we could help your team?\n\nMitull",
+        "facts_used": [
+          "site",
+          "web:4",
+          "web:2"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 84
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 1045
+        },
+        {
+          "name": "Web research",
+          "ms": 14055
+        },
+        {
+          "name": "Claude decision",
+          "ms": 12064
+        },
+        {
+          "name": "Draft",
+          "ms": 2768
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  }
+]

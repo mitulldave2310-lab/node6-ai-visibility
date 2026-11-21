@@ -1,0 +1,350 @@
+[
+  {
+    "website": "shaktipumps.com",
+    "status": 200,
+    "ms": 35998,
+    "error": null,
+    "route": "disqualify",
+    "tier": "C",
+    "score": 30,
+    "service": "automation",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 2,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://shaktipumps.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Shakti Pumps is a Pithampur-based manufacturer of solar, submersible and industrial pumps and motors. Its main buyers are government solar pump programmes and regional dealers.",
+        "fit_tier": "C",
+        "fit_score": 30,
+        "service": "automation",
+        "service_reason": "Dealer onboarding and order volume point to manual processes, but the company looks larger than the ICP and already appears to run its own IT stack.",
+        "buyer_roles": [
+          "Head of IT",
+          "Head of Sales Operations",
+          "Head of Digital"
+        ],
+        "signals": [
+          {
+            "label": "Dealer and vendor onboarding forms",
+            "evidence": "Vendor Registration Status",
+            "source": "site"
+          },
+          {
+            "label": "Installer and logistics registration",
+            "evidence": "Installer/Logistic Registration",
+            "source": "site"
+          },
+          {
+            "label": "Large state order volume",
+            "evidence": "order for 16,780 solar water pumps in Karnataka",
+            "source": "web:6"
+          },
+          {
+            "label": "Active hiring",
+            "evidence": "53 OPEN JOBS",
+            "source": "web:9"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources (501-1,000 vs 1,375 vs 2,092), and the ICP ceiling is about 500",
+          "Whether an existing dealer portal or ERP already automates orders and dispatch",
+          "Whether an in-house IT team already covers web and automation work",
+          "Scale of the online enquiry and dealer ordering process"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "C",
+        "score": 30,
+        "signals": [
+          {
+            "label": "Dealer and vendor onboarding forms",
+            "evidence": "Vendor Registration Status",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Installer and logistics registration",
+            "evidence": "Installer/Logistic Registration",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Large state order volume",
+            "evidence": "order for 16,780 solar water pumps in Karnataka",
+            "source": "web:6",
+            "verified": true,
+            "url": "https://scanx.trade/stock-market-news/orders-deals/shakti-pumps-invests-75-crores-in-subsidiary-for-solar-manufacturing-plant-expansion/30115507"
+          },
+          {
+            "label": "Active hiring",
+            "evidence": "53 OPEN JOBS",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://shaktipumps.com/careers/current-openings.php"
+          }
+        ],
+        "roles": [
+          "Head of IT",
+          "Head of Sales Operations",
+          "Head of Digital"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 8641
+        },
+        {
+          "name": "Web research",
+          "ms": 17950
+        },
+        {
+          "name": "Claude decision",
+          "ms": 8962
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "shaktipumps.com",
+    "status": 200,
+    "ms": 34243,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 15,
+    "service": "none",
+    "signals": 1,
+    "verified": 1,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://shaktipumps.com",
+      "company": "",
+      "audit": {
+        "earned": 5,
+        "possible": 10,
+        "verified": 2
+      },
+      "decision": {
+        "company_summary": "Shakti Pumps (India) Limited is a listed manufacturer of pumps, motors and solar pumping systems, headquartered in Pithampur, India. Its products serve agriculture, irrigation, water treatment and government solar programmes.",
+        "fit_tier": "X",
+        "fit_score": 15,
+        "service": "none",
+        "service_reason": "The company is a large listed manufacturer with 866 employees by one estimate and a market cap of ₹60.0b, which is outside the 10 to 500 person profile. Its public signals show established operations, not a clear website or manual-process need that node6 Labs would lead with.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Headcount above target range",
+            "evidence": "Shakti Pumps (531431) had 866 employees as of March 2026, up 34 (+4.1%) from the prior year.",
+            "source": "web:11"
+          }
+        ],
+        "missing_info": [
+          "The company website did not load, so its current web, e-commerce and online enquiry setup could not be checked.",
+          "Headcount conflicts across sources (866, 501 to 1,000, and 2,092), so the true size is unclear.",
+          "Revenue is not confirmed; sources disagree.",
+          "No evidence of a digital or web project need was found in the public sources reviewed."
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 15,
+        "signals": [
+          {
+            "label": "Headcount above target range",
+            "evidence": "Shakti Pumps (531431) had 866 employees as of March 2026, up 34 (+4.1%) from the prior year.",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://www.reveliolabs.com/companies/shakti-pumps/employees/"
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 11525
+        },
+        {
+          "name": "Web research",
+          "ms": 16295
+        },
+        {
+          "name": "Claude decision",
+          "ms": 6311
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 2
+  },
+  {
+    "website": "shaktipumps.com",
+    "status": 200,
+    "ms": 38086,
+    "error": null,
+    "route": "ask_for_info",
+    "tier": "C",
+    "score": 40,
+    "service": "digital_transformation",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 4,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://shaktipumps.com",
+      "company": "",
+      "audit": {
+        "earned": 5,
+        "possible": 5,
+        "verified": 1
+      },
+      "decision": {
+        "company_summary": "Shakti Pumps India Ltd manufactures pumps, motors and solar pumps and sells to agriculture, industrial and government-scheme customers, mainly in India. Its website did not load, so this summary relies on third-party sources.",
+        "fit_tier": "C",
+        "fit_score": 40,
+        "service": "digital_transformation",
+        "service_reason": "The sources show scale, expansion and a wide dealer and government order base, which suggests workflow and systems needs, but none of them name a specific digital gap.",
+        "buyer_roles": [
+          "Head of IT",
+          "Chief Digital Officer",
+          "Head of Operations"
+        ],
+        "signals": [
+          {
+            "label": "Solar manufacturing expansion",
+            "evidence": "establishing a greenfield high efficiency solar DCR",
+            "source": "web:9"
+          },
+          {
+            "label": "Large product range",
+            "evidence": "offers approximately 1, 500 pump products variants",
+            "source": "web:2"
+          },
+          {
+            "label": "Dealer and export reach",
+            "evidence": "serves clients in over 100 countries",
+            "source": "web:10"
+          },
+          {
+            "label": "Large government order",
+            "evidence": "secured a significant order worth ₹654.03 crore",
+            "source": "web:8"
+          }
+        ],
+        "missing_info": [
+          "Website did not load, so the current online presence, catalogue, dealer portal and ordering options are unknown",
+          "Headcount conflicts across sources (501-1,000 vs 2,092), which affects whether the company is inside the 10 to 500 range",
+          "Current ERP and SAP setup and whether integration or automation work is already handled in-house or by a vendor",
+          "Whether dealer, installer or government-scheme order workflows are manual today",
+          "Any open digital, IT or operations roles beyond the ones found in research"
+        ],
+        "next_step": "ask_for_info",
+        "urgency": "low",
+        "service_label": "Digital transformation"
+      },
+      "verdict": {
+        "route": "ask_for_info",
+        "tier": "C",
+        "score": 40,
+        "signals": [
+          {
+            "label": "Solar manufacturing expansion",
+            "evidence": "establishing a greenfield high efficiency solar DCR",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_23102026194030_IntimationofResultRelease.pdf"
+          },
+          {
+            "label": "Large product range",
+            "evidence": "offers approximately 1, 500 pump products variants",
+            "source": "web:2",
+            "verified": true,
+            "url": "https://theorg.com/org/shakti-pumps-india-ltd#teams"
+          },
+          {
+            "label": "Dealer and export reach",
+            "evidence": "serves clients in over 100 countries",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://www.datanyze.com/companies/shakti-pumps/353841566"
+          },
+          {
+            "label": "Large government order",
+            "evidence": "secured a significant order worth ₹654.03 crore",
+            "source": "web:8",
+            "verified": true,
+            "url": "https://scanx.trade/stock-market-news/orders-deals/shakti-pumps-invests-75-crores-in-subsidiary-for-solar-manufacturing-plant-expansion/30115507"
+          }
+        ],
+        "roles": [
+          "Head of IT",
+          "Chief Digital Officer",
+          "Head of Operations"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 11554
+        },
+        {
+          "name": "Web research",
+          "ms": 15546
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10859
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 3
+  }
+]

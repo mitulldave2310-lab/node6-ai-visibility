@@ -1,0 +1,408 @@
+[
+  {
+    "website": "shaktipumps.com",
+    "status": 200,
+    "ms": 35938,
+    "error": null,
+    "route": "manual_review",
+    "tier": "C",
+    "score": 25,
+    "service": "automation",
+    "signals": 4,
+    "verified": 3,
+    "web_verified": 2,
+    "overrides": [
+      "1 signal could not be matched to the source and was marked unverified."
+    ],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://shaktipumps.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Shakti Pumps (India) Ltd is a listed Indian manufacturer of solar, submersible, industrial and residential pumps and motors, with exports to over 100 countries. Its scale appears well above node6 Labs' target range.",
+        "fit_tier": "C",
+        "fit_score": 25,
+        "service": "automation",
+        "service_reason": "Large state tender empanelments suggest a heavy order and receivables workload, but this is inferred from the tender volume and is not shown on the website.",
+        "buyer_roles": [
+          "Head of IT",
+          "Operations Head",
+          "Finance Controller"
+        ],
+        "signals": [
+          {
+            "label": "Large workforce",
+            "evidence": "Pumps has 2,092 total employees",
+            "source": "web:3"
+          },
+          {
+            "label": "Large state tender volume",
+            "evidence": "received a Letter of Empanelment from MSEDCL for 15,000 off-grid SPWPS",
+            "source": "web:7"
+          },
+          {
+            "label": "Global export reach",
+            "evidence": "It exports a range of pumping products to over 100 countries globally.",
+            "source": "web:9"
+          },
+          {
+            "label": "Positioning on site",
+            "evidence": "Innovating for Tomorrow, Delivering Excellence Today",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Confirmed headcount, since sources range from 528 to 2,092",
+          "Whether an in-house engineering or IT team already handles digital work",
+          "Current website, ecommerce or enquiry tooling beyond the homepage",
+          "Named decision maker and the internal owner of order and receivables processes"
+        ],
+        "next_step": "manual_review",
+        "urgency": "low",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "manual_review",
+        "tier": "C",
+        "score": 25,
+        "signals": [
+          {
+            "label": "Large workforce",
+            "evidence": "Pumps has 2,092 total employees",
+            "source": "web:3",
+            "verified": false,
+            "url": "https://pitchbook.com/profiles/company/12661-30"
+          },
+          {
+            "label": "Large state tender volume",
+            "evidence": "received a Letter of Empanelment from MSEDCL for 15,000 off-grid SPWPS",
+            "source": "web:7",
+            "verified": true,
+            "url": "https://www.multibagg.ai/market-pulse/articles/shakti-oswal-msedcl-solar-pumps-cmtu2b68p000b30pbx00sh1a8"
+          },
+          {
+            "label": "Global export reach",
+            "evidence": "It exports a range of pumping products to over 100 countries globally.",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://uk.marketscreener.com/quote/stock/SHAKTI-PUMPS-INDIA-LIMITE-21452310/company/"
+          },
+          {
+            "label": "Positioning on site",
+            "evidence": "Innovating for Tomorrow, Delivering Excellence Today",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of IT",
+          "Operations Head",
+          "Finance Controller"
+        ],
+        "overrides": [
+          "1 signal could not be matched to the source and was marked unverified."
+        ]
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 8556
+        },
+        {
+          "name": "Web research",
+          "ms": 18861
+        },
+        {
+          "name": "Claude decision",
+          "ms": 8302
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "bluetokaicoffee.com",
+    "status": 200,
+    "ms": 24194,
+    "error": null,
+    "route": "manual_review",
+    "tier": "C",
+    "score": 40,
+    "service": "digital_transformation",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 4,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bluetokaicoffee.com",
+      "company": "",
+      "audit": {
+        "earned": 80,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Blue Tokai Coffee Roasters is an Indian specialty coffee brand that roasts Arabica beans, sells them online and through wholesale, and runs more than 175 cafés in India plus locations abroad.",
+        "fit_tier": "C",
+        "fit_score": 40,
+        "service": "digital_transformation",
+        "service_reason": "Funding is stated to fund back-end infrastructure work, but the site already runs on an online store and the company likely has in-house tech, so the need is unproven.",
+        "buyer_roles": [
+          "VP Consumer Technology",
+          "Chief Technology Officer",
+          "Head of Operations"
+        ],
+        "signals": [
+          {
+            "label": "Large café network",
+            "evidence": "Blue Tokai operates more than 175 cafés in India",
+            "source": "web:4"
+          },
+          {
+            "label": "Stated back-end investment plan",
+            "evidence": "improving its back-end infrastructure",
+            "source": "web:11"
+          },
+          {
+            "label": "Recent international opening",
+            "evidence": "The initiative commenced with the opening of a Blue Tokai café in the United Arab Emirates in the fourth quarter of 2025.",
+            "source": "web:5"
+          },
+          {
+            "label": "Recent funding round",
+            "evidence": "Blue Tokai Coffee Roasters has raised USD 25 million",
+            "source": "web:10"
+          },
+          {
+            "label": "No organization schema on site",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          }
+        ],
+        "missing_info": [
+          "Current headcount, since the only staff figure is an older profile",
+          "Whether a live digital, IT or e-commerce role is open now",
+          "Whether the in-house tech team already covers the back-end work",
+          "Which specific process is manual or slow today (orders, inventory, wholesale quotes, reporting)",
+          "Whether the company fits the 10 to 500 staff range for node6 Labs",
+          "Named decision maker and confirmed budget owner"
+        ],
+        "next_step": "manual_review",
+        "urgency": "medium",
+        "service_label": "Digital transformation"
+      },
+      "verdict": {
+        "route": "manual_review",
+        "tier": "C",
+        "score": 40,
+        "signals": [
+          {
+            "label": "Large café network",
+            "evidence": "Blue Tokai operates more than 175 cafés in India",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://finance.yahoo.com/news/blue-tokai-secures-25m-bridge-094532561.html"
+          },
+          {
+            "label": "Stated back-end investment plan",
+            "evidence": "improving its back-end infrastructure",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://finance.yahoo.com/news/blue-tokai-secures-25m-bridge-094532561.html"
+          },
+          {
+            "label": "Recent international opening",
+            "evidence": "The initiative commenced with the opening of a Blue Tokai café in the United Arab Emirates in the fourth quarter of 2025.",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://finance.yahoo.com/news/blue-tokai-secures-25m-bridge-094532561.html"
+          },
+          {
+            "label": "Recent funding round",
+            "evidence": "Blue Tokai Coffee Roasters has raised USD 25 million",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://oteats.outlooktraveller.com/whats-new/blue-tokai-coffee-roasters-raises-usd-25-million-and-expected-to-expand-in-dubai-and-japan"
+          },
+          {
+            "label": "No organization schema on site",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "VP Consumer Technology",
+          "Chief Technology Officer",
+          "Head of Operations"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 759
+        },
+        {
+          "name": "Web research",
+          "ms": 12791
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10602
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "infosys.com",
+    "status": 200,
+    "ms": 18855,
+    "error": null,
+    "route": "disqualify",
+    "tier": "X",
+    "score": 5,
+    "service": "none",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 3,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://infosys.com",
+      "company": "",
+      "audit": {
+        "earned": 0,
+        "possible": 0,
+        "verified": 0
+      },
+      "decision": {
+        "company_summary": "Infosys is a global IT consulting, outsourcing and digital transformation services company. It serves large enterprises in banking, retail, life sciences and manufacturing.",
+        "fit_tier": "X",
+        "fit_score": 5,
+        "service": "none",
+        "service_reason": "The company is a very large enterprise with in-house engineering scale, so none of node6 Labs' services is a clear lead offer.",
+        "buyer_roles": [],
+        "signals": [
+          {
+            "label": "Very large headcount",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees as of September 30, 2026",
+            "source": "web:9"
+          },
+          {
+            "label": "Enterprise revenue scale",
+            "evidence": "posted revenue of ₹49,244 crore for the quarter ended September 30, 2026",
+            "source": "web:10"
+          },
+          {
+            "label": "In-house development network",
+            "evidence": "139 development centers worldwide",
+            "source": "web:11"
+          }
+        ],
+        "missing_info": [
+          "Whether any subcontracting or partner programme would take work from a small agency",
+          "The company's own website returned Access Denied, so its current web needs could not be checked"
+        ],
+        "next_step": "disqualify",
+        "urgency": "low",
+        "service_label": "No clear fit"
+      },
+      "verdict": {
+        "route": "disqualify",
+        "tier": "X",
+        "score": 5,
+        "signals": [
+          {
+            "label": "Very large headcount",
+            "evidence": "Infosys’ total headcount rose to 332,542 employees as of September 30, 2026",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://www.storyboard18.com/amp/brand-marketing/infosys-q2-fy27-selling-and-marketing-spend-rises-12-to-%E2%82%B92489-crore-attrition-falls-to-12-7-113295.htm"
+          },
+          {
+            "label": "Enterprise revenue scale",
+            "evidence": "posted revenue of ₹49,244 crore for the quarter ended September 30, 2026",
+            "source": "web:10",
+            "verified": true,
+            "url": "https://www.storyboard18.com/amp/brand-marketing/infosys-q2-fy27-selling-and-marketing-spend-rises-12-to-%E2%82%B92489-crore-attrition-falls-to-12-7-113295.htm"
+          },
+          {
+            "label": "In-house development network",
+            "evidence": "139 development centers worldwide",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://www.companieshistory.com/infosys/"
+          }
+        ],
+        "roles": [],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 144
+        },
+        {
+          "name": "Web research",
+          "ms": 12841
+        },
+        {
+          "name": "Claude decision",
+          "ms": 5832
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "shreevalves.com",
+    "status": 422,
+    "ms": 1239,
+    "error": "We couldn't find that website. Check the spelling.",
+    "route": null,
+    "tier": null,
+    "score": null,
+    "service": null,
+    "signals": 0,
+    "verified": 0,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "error": "We couldn't find that website. Check the spelling."
+    },
+    "run": 1
+  }
+]

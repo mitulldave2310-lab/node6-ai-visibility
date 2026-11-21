@@ -1,0 +1,635 @@
+[
+  {
+    "website": "jyoticeramic.com",
+    "status": 200,
+    "ms": 26921,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 62,
+    "service": "web_development",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://jyoticeramic.com",
+      "company": "",
+      "audit": {
+        "earned": 75,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Family-owned Nashik manufacturer of industrial and technical ceramics such as zirconia, alumina and machinable ceramics, with bio-ceramic dental products. The site says it exports to over 55 countries.",
+        "fit_tier": "B",
+        "fit_score": 62,
+        "service": "web_development",
+        "service_reason": "The site has no structured data, no organisation schema and a one-question FAQ, so its web presence is thin for a company selling to overseas B2B buyers.",
+        "buyer_roles": [
+          "Managing Director",
+          "Sales Manager",
+          "Marketing Manager"
+        ],
+        "signals": [
+          {
+            "label": "Quote-only enquiry path",
+            "evidence": "Request a Quote",
+            "source": "site"
+          },
+          {
+            "label": "No organisation schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          },
+          {
+            "label": "Thin buyer FAQ",
+            "evidence": "1 question headings",
+            "source": "audit:faq"
+          },
+          {
+            "label": "Large export reach",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:5"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources (about 157 employees on filings data versus 11 to 50 on ZoomInfo)",
+          "Revenue conflicts across sources; FY2025 figure comes from a third-party aggregator",
+          "Whether the company runs an online catalogue, ordering or quote workflow beyond the request form",
+          "Which customer industries drive most enquiries",
+          "Whether an in-house or existing agency already handles the website",
+          "Current hiring for sales or marketing roles and whether it is tied to digital growth"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 62,
+        "signals": [
+          {
+            "label": "Quote-only enquiry path",
+            "evidence": "Request a Quote",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "No organisation schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "Thin buyer FAQ",
+            "evidence": "1 question headings",
+            "source": "audit:faq",
+            "verified": true
+          },
+          {
+            "label": "Large export reach",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://www.jyoticeramic.com/about.php"
+          }
+        ],
+        "roles": [
+          "Managing Director",
+          "Sales Manager",
+          "Marketing Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Jyoti Ceramic's export enquiries online",
+        "body": "Hello,\n\nJyoti Ceramic exports 70% of its production to over 55 countries. That is a wide set of buyers who likely find you through search before they ever request a quote.\n\nWhen I looked at the site, I noticed there is no Organization schema or other structured data, and the buyer FAQ is only one question. That makes it harder for search engines and AI tools to describe the business correctly to overseas buyers.\n\nAt node6 Labs we build websites, stores and automation, and fixing this is a small project.\n\nWould you be open to a short note on what I would change?\n\nMitull",
+        "facts_used": [
+          "web:5",
+          "audit:entity_schema",
+          "audit:schema",
+          "audit:faq",
+          "site"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 104
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 743
+        },
+        {
+          "name": "Web research",
+          "ms": 12375
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9209
+        },
+        {
+          "name": "Draft",
+          "ms": 3777
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "uniklinger.com",
+    "status": 200,
+    "ms": 22315,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 55,
+    "service": "web_development",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://uniklinger.com",
+      "company": "",
+      "audit": {
+        "earned": 50,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Uni Klinger Limited is a Pune-based manufacturer of precision-engineered valves, steam traps and gaskets, serving process industries such as refineries, chemical plants and pharmaceuticals.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "web_development",
+        "service_reason": "The homepage has only 8 words of readable text, no H1, no structured data and no meta description, so the website is the clearest gap.",
+        "buyer_roles": [
+          "Head of Marketing",
+          "Sales Head",
+          "IT Manager"
+        ],
+        "signals": [
+          {
+            "label": "Thin homepage copy",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth"
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1"
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          },
+          {
+            "label": "Sells to customers worldwide",
+            "evidence": "UKL serves customers worldwide.",
+            "source": "web:6"
+          },
+          {
+            "label": "Product-focused homepage title",
+            "evidence": "Manufacturers of Precision-Engineered Valves, Steam Traps, and Gaskets",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources (218 to 501-1,000)",
+          "Revenue is an unverified third-party estimate",
+          "Whether the company sells or takes enquiries online",
+          "Current website content beyond the homepage",
+          "Any IT, digital or operations hiring beyond one unidentified posting",
+          "Decision maker and budget owner"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Thin homepage copy",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth",
+            "verified": true
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1",
+            "verified": true
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "Sells to customers worldwide",
+            "evidence": "UKL serves customers worldwide.",
+            "source": "web:6",
+            "verified": true,
+            "url": "https://www.bloomberg.com/profile/company/0655427D:IN"
+          },
+          {
+            "label": "Product-focused homepage title",
+            "evidence": "Manufacturers of Precision-Engineered Valves, Steam Traps, and Gaskets",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of Marketing",
+          "Sales Head",
+          "IT Manager"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Homepage for UKL's valves and gaskets",
+        "body": "Hello,\n\nUKL's homepage title says you make precision-engineered valves, steam traps and gaskets, and you serve customers worldwide. But the homepage itself has only about 8 words of readable text, no H1 heading and no structured data.\n\nFor a buyer searching for a specific valve type, or for search engines trying to understand your range, that gives very little to work with.\n\nI build websites, stores and automation at node6 Labs. I could fix this with clear headings, product copy and structured data.\n\nWould it be worth a short chat about this?\n\nMitull",
+        "facts_used": [
+          "site",
+          "web:6",
+          "audit:content_depth",
+          "audit:h1",
+          "audit:schema"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 93
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 127
+        },
+        {
+          "name": "Web research",
+          "ms": 12195
+        },
+        {
+          "name": "Claude decision",
+          "ms": 6712
+        },
+        {
+          "name": "Draft",
+          "ms": 3231
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "thewholetruthfoods.com",
+    "status": 200,
+    "ms": 27743,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 55,
+    "service": "automation",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 4,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://thewholetruthfoods.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "The Whole Truth Foods is an India-based clean-label food brand that sells protein powders, protein and energy bars, muesli and nut spreads through its own online store and marketplaces. It is a funded D2C business that is scaling supply and manufacturing.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "automation",
+        "service_reason": "Operations hiring for supply chain and a scale-up in manufacturing point to manual planning and fulfilment work, though the in-house product team limits the case for a storefront build.",
+        "buyer_roles": [
+          "Head of Supply Chain",
+          "Head of Operations",
+          "Head of D2C or E-commerce"
+        ],
+        "signals": [
+          {
+            "label": "Heavy e-commerce dependence",
+            "evidence": "with 80% of sales coming via e-commerce and marketplace presence growing fast",
+            "source": "web:5"
+          },
+          {
+            "label": "Recent funding for scale-up",
+            "evidence": "The Whole Truth eyes public markets with new $51M Series D funding",
+            "source": "web:12"
+          },
+          {
+            "label": "Integrated supply chain hiring",
+            "evidence": "Integrated - SCM",
+            "source": "web:11"
+          },
+          {
+            "label": "Reported rapid revenue growth",
+            "evidence": "The Whole Truth has grown to ₹220 crore in revenue",
+            "source": "web:9"
+          },
+          {
+            "label": "Online ordering with repeat purchase",
+            "evidence": "Reorder",
+            "source": "site"
+          }
+        ],
+        "missing_info": [
+          "Headcount conflicts across sources (51-200 on LinkedIn, 175 on Levels.fyi, 500 on PitchBook)",
+          "Revenue figure is third-party and unverified",
+          "Which operations processes are manual today (planning, order handling, reporting)",
+          "Current tech stack and existing vendors",
+          "Whether they have an open project or budget for automation",
+          "Named decision maker"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Heavy e-commerce dependence",
+            "evidence": "with 80% of sales coming via e-commerce and marketplace presence growing fast",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://d2cbazaar.com/food-beverages/the-whole-truth-foods/"
+          },
+          {
+            "label": "Recent funding for scale-up",
+            "evidence": "The Whole Truth eyes public markets with new $51M Series D funding",
+            "source": "web:12",
+            "verified": true,
+            "url": "https://yourstory.com/2026/02/the-whole-truth-public-markets-new-funding"
+          },
+          {
+            "label": "Integrated supply chain hiring",
+            "evidence": "Integrated - SCM",
+            "source": "web:11",
+            "verified": true,
+            "url": "https://thewholetruthfoods.keka.com/careers/?weekdayJdUid=683425"
+          },
+          {
+            "label": "Reported rapid revenue growth",
+            "evidence": "The Whole Truth has grown to ₹220 crore in revenue",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://d2cbazaar.com/food-beverages/the-whole-truth-foods/"
+          },
+          {
+            "label": "Online ordering with repeat purchase",
+            "evidence": "Reorder",
+            "source": "site",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of Supply Chain",
+          "Head of Operations",
+          "Head of D2C or E-commerce"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Order flow at The Whole Truth",
+        "body": "Hi,\n\nI read that 80% of The Whole Truth's sales come through e-commerce and marketplaces, and that presence is growing fast. With that mix, I imagine order handling and stock updates across channels take real effort from your supply chain team.\n\nI'm Mitull at node6 Labs. We build websites, stores and automation, including tools that move order and inventory data between channels without manual entry.\n\nWould it be useful if I sent over a short example of how that could look for a brand like yours? Yes or no is fine.\n\nMitull",
+        "facts_used": [
+          "web:5"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 92
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 448
+        },
+        {
+          "name": "Web research",
+          "ms": 13677
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10850
+        },
+        {
+          "name": "Draft",
+          "ms": 2695
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "bakingo.com",
+    "status": 200,
+    "ms": 28502,
+    "error": null,
+    "route": "draft",
+    "tier": "B",
+    "score": 55,
+    "service": "automation",
+    "signals": 3,
+    "verified": 3,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": {
+      "pass": true,
+      "problems": [],
+      "attempts": 1
+    },
+    "raw": {
+      "mode": "outbound",
+      "url": "https://bakingo.com",
+      "company": "",
+      "audit": {
+        "earned": 95,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Bakingo is an online cake and dessert delivery brand that sells celebration cakes and gifts for delivery across several Indian cities. Its parent, FA Gifts, also runs the FlowerAura gifting platform.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "automation",
+        "service_reason": "The site shows a multi-city, delivery-dependent business that promises on-time delivery, and the research notes point to store and kitchen operations and forecasting as investment areas, which suggests workflow automation as the lead.",
+        "buyer_roles": [
+          "Head of Operations",
+          "Chief Technology Officer",
+          "Head of Supply Chain"
+        ],
+        "signals": [
+          {
+            "label": "Delivery promise depends on operations",
+            "evidence": "Because no one likes late surprises.",
+            "source": "site"
+          },
+          {
+            "label": "Multi-city delivery footprint",
+            "evidence": "Currently, we are delivering cakes in Gurgaon, Delhi, Noida",
+            "source": "site"
+          },
+          {
+            "label": "No llms.txt file",
+            "evidence": "llms.txt file: Missing",
+            "source": "audit:llms_txt"
+          }
+        ],
+        "missing_info": [
+          "Current tech stack for order management, dark-kitchen production and delivery dispatch",
+          "Number of dark kitchens and physical stores today",
+          "Headcount, which sources disagree on (51-200 vs 501-1000)",
+          "Which operational process is the most manual or error-prone",
+          "Current vendors and tools for ordering, inventory and forecasting",
+          "Who owns budget and the final decision",
+          "Whether the 2026 funding is earmarked for technology"
+        ],
+        "next_step": "draft_first_touch",
+        "urgency": "medium",
+        "service_label": "Automation"
+      },
+      "verdict": {
+        "route": "draft",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Delivery promise depends on operations",
+            "evidence": "Because no one likes late surprises.",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "Multi-city delivery footprint",
+            "evidence": "Currently, we are delivering cakes in Gurgaon, Delhi, Noida",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "No llms.txt file",
+            "evidence": "llms.txt file: Missing",
+            "source": "audit:llms_txt",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Head of Operations",
+          "Chief Technology Officer",
+          "Head of Supply Chain"
+        ],
+        "overrides": []
+      },
+      "draft": {
+        "subject": "Late surprises across three cities",
+        "body": "Hi,\n\nYour site says \"Because no one likes late surprises.\" With cakes going out across Gurgaon, Delhi and Noida, that promise sits mostly with operations.\n\nI'm Mitull at node6 Labs. We build websites, stores and automation. One thing we do is connect order intake to kitchen production and dispatch updates, so fewer orders depend on someone chasing a message.\n\nI don't know how your team handles this today, so this may not fit. Is it worth a short chat about it?\n\nMitull",
+        "facts_used": [
+          "site"
+        ],
+        "check": {
+          "pass": true,
+          "problems": [],
+          "words": 82
+        },
+        "attempts": 1
+      },
+      "research": {
+        "searched": true,
+        "sources": 0,
+        "note": "Web research found no citable sources."
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 884
+        },
+        {
+          "name": "Web research",
+          "ms": 12866
+        },
+        {
+          "name": "Claude decision",
+          "ms": 10539
+        },
+        {
+          "name": "Draft",
+          "ms": 3199
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  }
+]

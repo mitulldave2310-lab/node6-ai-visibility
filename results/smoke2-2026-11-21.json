@@ -1,0 +1,436 @@
+[
+  {
+    "website": "jyoticeramic.com",
+    "status": 200,
+    "ms": 21608,
+    "error": null,
+    "route": "manual_review",
+    "tier": "B",
+    "score": 50,
+    "service": "web_development",
+    "signals": 5,
+    "verified": 5,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://jyoticeramic.com",
+      "company": "",
+      "audit": {
+        "earned": 75,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Jyoti Ceramic Industries is a Nashik-based manufacturer of industrial and technical ceramics, including zirconia, alumina and dental bio-ceramics. Its website says it exports 70% of production to over 55 countries.",
+        "fit_tier": "B",
+        "fit_score": 50,
+        "service": "web_development",
+        "service_reason": "The homepage has a quote request flow but the site lacks structured data and an organization entity schema, which points to a web and discoverability gap for an export-led B2B manufacturer.",
+        "buyer_roles": [
+          "Export Manager",
+          "Digital Marketing Manager",
+          "IT Manager"
+        ],
+        "signals": [
+          {
+            "label": "Export-led B2B sales",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:5"
+          },
+          {
+            "label": "Quote request on site",
+            "evidence": "Request a Quote",
+            "source": "site"
+          },
+          {
+            "label": "No organization schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema"
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          },
+          {
+            "label": "No llms.txt file",
+            "evidence": "llms.txt file: Missing",
+            "source": "audit:llms_txt"
+          }
+        ],
+        "missing_info": [
+          "Whether quote requests are handled online or by email and phone",
+          "Any digital, IT or operations hiring or current web vendor",
+          "Confirmed revenue figure, since sources conflict",
+          "Named decision maker and budget owner",
+          "Whether the website drives export leads today"
+        ],
+        "next_step": "manual_review",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "manual_review",
+        "tier": "B",
+        "score": 50,
+        "signals": [
+          {
+            "label": "Export-led B2B sales",
+            "evidence": "Currently Jyoti Ceramic exports 70% of its production to over 55 countries.",
+            "source": "web:5",
+            "verified": true,
+            "url": "https://www.jyoticeramic.com/about.php"
+          },
+          {
+            "label": "Quote request on site",
+            "evidence": "Request a Quote",
+            "source": "site",
+            "verified": true
+          },
+          {
+            "label": "No organization schema",
+            "evidence": "Organization or LocalBusiness schema: Missing",
+            "source": "audit:entity_schema",
+            "verified": true
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "No llms.txt file",
+            "evidence": "llms.txt file: Missing",
+            "source": "audit:llms_txt",
+            "verified": true
+          }
+        ],
+        "roles": [
+          "Export Manager",
+          "Digital Marketing Manager",
+          "IT Manager"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 1207
+        },
+        {
+          "name": "Web research",
+          "ms": 12789
+        },
+        {
+          "name": "Claude decision",
+          "ms": 7428
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "uniklinger.com",
+    "status": 200,
+    "ms": 20972,
+    "error": null,
+    "route": "manual_review",
+    "tier": "B",
+    "score": 55,
+    "service": "web_development",
+    "signals": 4,
+    "verified": 4,
+    "web_verified": 1,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://uniklinger.com",
+      "company": "",
+      "audit": {
+        "earned": 50,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "Uni Klinger Limited is a Pune-based manufacturer of precision-engineered valves, steam traps and gaskets for process industries such as refineries, chemical plants and pharmaceuticals. It is a joint venture of the Neterwala Group and Klinger AG.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "web_development",
+        "service_reason": "The homepage has almost no readable text and no H1, meta description or structured data, so the website is not doing much work for a B2B manufacturer that sells across many industries.",
+        "buyer_roles": [
+          "Marketing Manager",
+          "Head of Digital Marketing",
+          "IT Manager"
+        ],
+        "signals": [
+          {
+            "label": "Thin homepage text",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth"
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1"
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema"
+          },
+          {
+            "label": "Steam engineering services added to meet customer demand",
+            "evidence": "Based on the growing customer demands Uni Klinger has introduced services related to Steam Engineering",
+            "source": "web:4"
+          }
+        ],
+        "missing_info": [
+          "Whether the company sells or takes enquiries online, or relies on distributors and direct sales",
+          "Reliable headcount, since LinkedIn, TheCompanyCheck and Levels.fyi give conflicting figures",
+          "Whether the website is a priority for management or whether the business is mainly referral-led",
+          "Whether the company has a current digital or IT budget or open roles in those areas",
+          "Whether the company is public or private, since sources conflict"
+        ],
+        "next_step": "manual_review",
+        "urgency": "low",
+        "service_label": "Web development"
+      },
+      "verdict": {
+        "route": "manual_review",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Thin homepage text",
+            "evidence": "Enough readable text on the homepage: 8 words",
+            "source": "audit:content_depth",
+            "verified": true
+          },
+          {
+            "label": "No H1 heading",
+            "evidence": "One clear H1 heading: No H1",
+            "source": "audit:h1",
+            "verified": true
+          },
+          {
+            "label": "No structured data",
+            "evidence": "Structured data (JSON-LD): None",
+            "source": "audit:schema",
+            "verified": true
+          },
+          {
+            "label": "Steam engineering services added to meet customer demand",
+            "evidence": "Based on the growing customer demands Uni Klinger has introduced services related to Steam Engineering",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://in.linkedin.com/company/uni-klinger"
+          }
+        ],
+        "roles": [
+          "Marketing Manager",
+          "Head of Digital Marketing",
+          "IT Manager"
+        ],
+        "overrides": []
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 1437
+        },
+        {
+          "name": "Web research",
+          "ms": 12938
+        },
+        {
+          "name": "Claude decision",
+          "ms": 6550
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "thewholetruthfoods.com",
+    "status": 200,
+    "ms": 23836,
+    "error": null,
+    "route": "manual_review",
+    "tier": "B",
+    "score": 55,
+    "service": "ecommerce",
+    "signals": 5,
+    "verified": 4,
+    "web_verified": 3,
+    "overrides": [
+      "1 signal could not be matched to the source and was marked unverified."
+    ],
+    "draft": null,
+    "raw": {
+      "mode": "outbound",
+      "url": "https://thewholetruthfoods.com",
+      "company": "",
+      "audit": {
+        "earned": 90,
+        "possible": 100,
+        "verified": 13
+      },
+      "decision": {
+        "company_summary": "The Whole Truth Foods is a Mumbai-based clean-label food brand selling protein powders, protein bars, muesli and nut spreads. It sells direct-to-consumer through its online store, plus marketplaces, quick commerce and offline retail.",
+        "fit_tier": "B",
+        "fit_score": 55,
+        "service": "ecommerce",
+        "service_reason": "The company runs a live online store and is hiring e-commerce and conversion roles, so ecommerce improvements are the clearest entry point.",
+        "buyer_roles": [
+          "Head of E-commerce",
+          "Chief Operating Officer",
+          "Head of Digital Growth"
+        ],
+        "signals": [
+          {
+            "label": "Live online store with pincode delivery check",
+            "evidence": "Add your pincode to see what's available in your area.",
+            "source": "site"
+          },
+          {
+            "label": "Thin FAQ for buyer questions",
+            "evidence": "Answers buyer questions (FAQ): 0 question headings",
+            "source": "audit:faq"
+          },
+          {
+            "label": "Active job openings",
+            "evidence": "28 Active jobs",
+            "source": "web:9"
+          },
+          {
+            "label": "Operations and planning hiring",
+            "evidence": "Lead – Demand Planning & S&OP",
+            "source": "web:9"
+          },
+          {
+            "label": "Mid-size headcount and revenue",
+            "evidence": "With 253 employees and revenue of ₹70.6 crore in FY24",
+            "source": "web:4"
+          }
+        ],
+        "missing_info": [
+          "Whether an in-house e-commerce or product team already handles the store and its roadmap",
+          "Reliable headcount, since sources range from 51-200 to 500 people",
+          "Current checkout and conversion performance and platform in use",
+          "Which manual processes (orders, distributor or quick-commerce reporting, demand planning) are causing the most cost or delay",
+          "Budget and decision-maker for a project"
+        ],
+        "next_step": "manual_review",
+        "urgency": "medium",
+        "service_label": "eCommerce"
+      },
+      "verdict": {
+        "route": "manual_review",
+        "tier": "B",
+        "score": 55,
+        "signals": [
+          {
+            "label": "Live online store with pincode delivery check",
+            "evidence": "Add your pincode to see what's available in your area.",
+            "source": "site",
+            "verified": false
+          },
+          {
+            "label": "Thin FAQ for buyer questions",
+            "evidence": "Answers buyer questions (FAQ): 0 question headings",
+            "source": "audit:faq",
+            "verified": true
+          },
+          {
+            "label": "Active job openings",
+            "evidence": "28 Active jobs",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://bebee.com/in/companies/the-whole-truth-foods"
+          },
+          {
+            "label": "Operations and planning hiring",
+            "evidence": "Lead – Demand Planning & S&OP",
+            "source": "web:9",
+            "verified": true,
+            "url": "https://bebee.com/in/companies/the-whole-truth-foods"
+          },
+          {
+            "label": "Mid-size headcount and revenue",
+            "evidence": "With 253 employees and revenue of ₹70.6 crore in FY24",
+            "source": "web:4",
+            "verified": true,
+            "url": "https://startupintros.com/orgs/the-whole-truth"
+          }
+        ],
+        "roles": [
+          "Head of E-commerce",
+          "Chief Operating Officer",
+          "Head of Digital Growth"
+        ],
+        "overrides": [
+          "1 signal could not be matched to the source and was marked unverified."
+        ]
+      },
+      "draft": null,
+      "research": {
+        "searched": true,
+        "sources": 12,
+        "note": ""
+      },
+      "steps": [
+        {
+          "name": "Read website",
+          "ms": 1502
+        },
+        {
+          "name": "Web research",
+          "ms": 13247
+        },
+        {
+          "name": "Claude decision",
+          "ms": 9022
+        }
+      ],
+      "author": "Claude"
+    },
+    "run": 1
+  },
+  {
+    "website": "bakingo.com",
+    "status": 429,
+    "ms": 65,
+    "error": "Too many runs from this connection. Try again in ten minutes.",
+    "route": null,
+    "tier": null,
+    "score": null,
+    "service": null,
+    "signals": 0,
+    "verified": 0,
+    "web_verified": 0,
+    "overrides": [],
+    "draft": null,
+    "raw": {
+      "error": "Too many runs from this connection. Try again in ten minutes."
+    },
+    "run": 1
+  }
+]
