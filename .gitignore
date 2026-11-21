@@ -40,3 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /.next-production/
+
+# Local Demo Day submission files (deck, write-up, video, scripts). Uploaded to Drive, not the repo.
+/submission/

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Under the hood | node6 Lead Desk</title>
+<meta name="description" content="How the node6 Labs Lead Desk decides, what checks Claude, and the measured results from real test runs.">
+<link rel="stylesheet" href="/underhood.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <a class="brand" href="/desk.html">node<span>6</span> Lead Desk</a>
+    <p class="side-sub">Under the hood</p>
+    <nav class="views" aria-label="Sections">
+      <a href="#overview" data-v="overview"><i>01</i>Overview</a>
+      <a href="#pipeline" data-v="pipeline"><i>02</i>Pipeline</a>
+      <a href="#runs" data-v="runs"><i>03</i>Test runs</a>
+      <a href="#guardrails" data-v="guardrails"><i>04</i>Guardrails</a>
+      <a href="#automation" data-v="automation"><i>05</i>Enquiry automation</a>
+      <a href="#stack" data-v="stack"><i>06</i>Cost and stack</a>
+    </nav>
+    <a class="cta" href="/desk.html">Run a company <span aria-hidden="true">→</span></a>
+    <p class="side-foot">Data from live runs on <b id="tested">21 Nov 2026</b>. Nothing on this page is a mock-up.</p>
+  </aside>
+
+  <main class="main">
+    <!-- 01 Overview -->
+    <section class="view" id="v-overview">
+      <header class="vh"><p class="k">Overview</p><h1>A research agent and an enquiry desk, with every claim checked.</h1>
+      <p class="lede">You type a company. Three Claude calls research it, decide the fit and write a first message. Code then checks every quote against its source and decides what a person must review. Inbound enquiries run through the same engine and wait for one-tap approval in n8n.</p></header>
+      <div class="kpis" id="kpis"></div>
+      <div class="grid2">
+        <div class="panel">
+          <h2>What runs on one click</h2>
+          <ol class="count">
+            <li><b>13</b> website checks, scored by code</li>
+            <li><b>3</b> Claude calls: Sonnet research, Haiku decision, Sonnet draft</li>
+            <li><b>Up to 3</b> web searches, only cited text kept</li>
+            <li><b>Every</b> quote matched word for word to its source</li>
+            <li><b>7</b> copy rules on the draft, one automatic rewrite</li>
+          </ol>
+        </div>
+        <div class="panel">
+          <h2>What a person still decides</h2>
+          <ul class="ticks">
+            <li>Every outbound email: the desk writes drafts and never sends them</li>
+            <li>Every enquiry reply: n8n emails an approval card first</li>
+            <li>Any company where no quote could be verified</li>
+            <li>Any fit below tier B</li>
+          </ul>
+          <p class="note">Built and tested: 37 automated tests, 33 logged live runs, 1 enquiry tested end to end.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 Pipeline -->
+    <section class="view" id="v-pipeline" hidden>
+      <header class="vh"><p class="k">Pipeline</p><h1>Five steps, timed on real runs.</h1>
+      <p class="lede">Bar length is the median time of each step across 27 successful live runs. Web research is the slow part, because it waits on search results.</p></header>
+      <div class="pipe" id="pipe"></div>
+      <div class="grid2">
+        <div class="panel"><h2>Why two models</h2><p>Haiku 5.5 makes a short structured judgment (service, tier, next step) quickly and cheaply. Sonnet 5.5 does the reading and the writing a person will see.</p></div>
+        <div class="panel"><h2>Why Claude doesn't set the score</h2><p>The website score comes from 13 weighted checks in code, so the same site always gets the same score. Claude explains and decides; it never grades.</p></div>
+      </div>
+    </section>
+
+    <!-- 03 Runs -->
+    <section class="view" id="v-runs" hidden>
+      <header class="vh"><p class="k">Test runs</p><h1>10 real companies, 3 runs each.</h1>
+      <p class="lede">Each dot is one run. Same colour three times means Claude reached the same decision every time. Select a company to open the decision card from that run.</p></header>
+      <div class="legend"><span><span class="dot draft"></span>Draft</span><span><span class="dot ask_for_info"></span>Ask for info</span><span><span class="dot manual_review"></span>Manual review</span><span><span class="dot disqualify"></span>Disqualify</span><span><span class="dot err"></span>Failed run</span></div>
+      <div class="split">
+        <ul class="runlist" id="runlist"></ul>
+        <article class="card" id="card" aria-live="polite"><p class="empty">Select a company to see its decision card.</p></article>
+      </div>
+    </section>
+
+    <!-- 04 Guardrails -->
+    <section class="view" id="v-guardrails" hidden>
+      <header class="vh"><p class="k">Guardrails</p><h1>Rules that Claude can't talk its way past.</h1>
+      <p class="lede">These quotes came back from Claude in the test runs and failed the word-for-word check. The desk showed them as unverified instead of trusting them.</p></header>
+      <ul class="caught" id="caught"></ul>
+      <div class="grid2">
+        <div class="panel"><h2>Routing rules</h2>
+          <ul class="rules">
+            <li>No verified quote at all: a person reviews it</li>
+            <li>Site won't load and no web quote verifies: a person reviews it</li>
+            <li>Draft only for tier A or B</li>
+            <li>No service fits: disqualified, no draft</li>
+            <li>Enquiries are never dropped automatically</li>
+          </ul></div>
+        <div class="panel"><h2>Copy check on every draft</h2>
+          <ul class="rules">
+            <li>Under the word limit</li>
+            <li>No long dashes, no banned sales phrases</li>
+            <li>No placeholders like [Name]</li>
+            <li>Every number must appear in the evidence</li>
+            <li>Must use at least one verified fact</li>
+            <li>Fails once: rewritten automatically. Fails twice: flagged for a person</li>
+          </ul></div>
+      </div>
+      <div class="panel fixes"><h2>Found and fixed in live testing</h2>
+        <dl>
+          <dt>No citations</dt><dd>The newest web search tool filters results through code and returned no citations, so nothing could be verified. Switched to the version that returns cited quotes.</dd>
+          <dt>Good fits held back</dt><dd>Claude treated unknown budget and headcount figures that differ between sites as "conflicting evidence". One prompt rule fixed it: 4 of 4 tier B companies then got drafts.</dd>
+          <dt>Blocked websites</dt><dd>Sites that refuse to be read went to manual review even when web quotes verified. The rule now fires only when no web quote verifies.</dd>
+          <dt>Token mismatch</dt><dd>The enquiry was rejected by n8n until both sides used the same secret. Checked: 403 without it, 200 with it.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 05 Automation -->
+    <section class="view" id="v-automation" hidden>
+      <header class="vh"><p class="k">Enquiry automation</p><h1>n8n workflow: nothing is sent until a person taps Send.</h1>
+      <p class="lede">The live workflow "node6 Enquiry Desk (Week 6)" has 10 steps. The app posts each researched enquiry to a protected webhook; n8n logs it, emails the approver and waits.</p></header>
+      <div class="flow-wrap"><svg id="flow" viewBox="0 0 1000 330" role="img" aria-label="n8n workflow with 10 steps"></svg></div>
+      <div class="grid2">
+        <div class="panel"><h2>End-to-end test, 21 Nov</h2>
+          <ol class="timeline">
+            <li><b>0s</b> Test enquiry sent from the form (reference E-MWQ39D54)</li>
+            <li><b>31s</b> Claude research, decision and draft done, posted to n8n</li>
+            <li><b>Then</b> Logged in Airtable, approval email arrived in the test inbox</li>
+            <li><b>Tap</b> Send reply pressed, reply delivered to the enquirer</li>
+          </ol></div>
+        <div class="panel"><h2>Safety on the webhook</h2>
+          <ul class="ticks">
+            <li>Header token required: requests without it get 403</li>
+            <li>Form must come from this site, with consent ticked</li>
+            <li>5 enquiries per 10 minutes per connection</li>
+            <li>Replies sign as node6 Labs; outbound drafts sign as Mitull</li>
+          </ul></div>
+      </div>
+      <div class="shots" id="shots"></div>
+    </section>
+
+    <!-- 06 Stack -->
+    <section class="view" id="v-stack" hidden>
+      <header class="vh"><p class="k">Cost and stack</p><h1>About ₹7 to ₹10 a company, in about 25 seconds.</h1>
+      <p class="lede">Estimated from Anthropic list prices: up to 3 web searches at 1 cent each, one Sonnet research call, one Haiku decision and one or two Sonnet drafts.</p></header>
+      <table class="cost"><thead><tr><th>Step</th><th>Model or tool</th><th>Approx. cost</th></tr></thead>
+        <tbody>
+          <tr><td>Web searches</td><td>Up to 3</td><td>$0.03</td></tr>
+          <tr><td>Research</td><td>Claude Sonnet 5.5</td><td>$0.05 to $0.06</td></tr>
+          <tr><td>Decision</td><td>Claude Haiku 5.5</td><td>$0.002</td></tr>
+          <tr><td>Draft</td><td>Claude Sonnet 5.5</td><td>$0.02 (tier A or B only)</td></tr>
+          <tr class="sum"><td>Total</td><td></td><td>$0.08 to $0.12</td></tr>
+        </tbody></table>
+      <div class="chips">
+        <span>Next.js 15 on Vercel</span><span>Claude API, structured outputs</span><span>n8n Cloud</span><span>Airtable</span><span>Gmail SMTP</span><span>Vitest, 37 tests</span><span>TypeScript strict</span>
+      </div>
+      <div class="panel"><h2>Limits, stated plainly</h2>
+        <ul class="rules">
+          <li>No real prospect has been contacted yet, so there is no reply rate</li>
+          <li>The customer profile is an assumption to confirm with node6 Labs</li>
+          <li>Borderline companies can get different answers on different runs (2 of 10)</li>
+          <li>Costs are estimates from list prices, not metered per run</li>
+        </ul></div>
+    </section>
+  </main>
+</div>
+<script src="/underhood.js" defer></script>
+</body>
+</html>
