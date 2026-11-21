@@ -1,3 +1,5 @@
+**[Portfolio case study: node6 Labs Audit & Lead Desk](portfolio/README.md)**
+
 # node6 Labs AI Visibility Audit
 
 Type a website, get a score for how well ChatGPT, Perplexity and Gemini can read and cite it.

@@ -1,0 +1,81 @@
+{
+  "name": "Week 6 callback to Week 4",
+  "nodes": [
+    {
+      "id": "336b41cd-a88b-4079-8cd6-3a7d60ad28d8",
+      "name": "Week 6 callback",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        -240,
+        300
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "week6-callback",
+        "authentication": "headerAuth",
+        "responseMode": "lastNode",
+        "options": {}
+      }
+    },
+    {
+      "id": "00f25e12-061f-4c7f-bf46-39b646c01c87",
+      "name": "Read consented form",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "jsCode": "return {json:$json.body};"
+      }
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "OqGNa3k5iDfOqHQb",
+          "mode": "id"
+        },
+        "options": {
+          "waitForSubWorkflow": false
+        }
+      },
+      "id": "31f7087e-f4ad-52a9-bb79-14fc0c6d1643",
+      "name": "Send to Lead Engine",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        260,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Week 6 callback": {
+      "main": [
+        [
+          {
+            "node": "Read consented form",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read consented form": {
+      "main": [
+        [
+          {
+            "node": "Send to Lead Engine",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {},
+  "active": false
+}

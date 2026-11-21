@@ -1,0 +1,11 @@
+{
+  "n8n_base_url": "https://YOUR-NAME.app.n8n.cloud",
+  "airtable_base_id": "appXXXXXXXXXXXXXX",
+  "sender_name": "Kunal, node6 Labs",
+  "qualify_model": "claude-haiku-5-5",
+  "draft_model": "claude-sonnet-5-5",
+  "vapi_assistant_id": "",
+  "vapi_phone_number_id": "",
+  "elevenlabs_voice_id": "YOUR_ELEVENLABS_VOICE_ID",
+  "approver_email": "approver@example.com"
+}

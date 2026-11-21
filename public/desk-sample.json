@@ -1,0 +1,47 @@
+{
+  "mode": "outbound",
+  "url": "https://harbour-tools.example",
+  "company": "Harbour Tool Works",
+  "audit": { "earned": 58, "possible": 100, "verified": 13 },
+  "decision": {
+    "company_summary": "A Pune maker of custom cutting tools that also services workshop machines. Buyers ask for quotes by phone or email.",
+    "fit_tier": "A",
+    "fit_score": 78,
+    "service": "ecommerce",
+    "service_label": "eCommerce",
+    "service_reason": "Repeat tooling orders arrive by phone and email, so an online quote and reorder page would save the sales desk time.",
+    "buyer_roles": ["Managing Director", "Head of Sales"],
+    "signals": [],
+    "missing_info": ["How many repeat orders arrive each month", "Which system they use for invoices"],
+    "next_step": "draft_first_touch",
+    "urgency": "medium"
+  },
+  "verdict": {
+    "route": "draft",
+    "tier": "A",
+    "score": 78,
+    "roles": ["Managing Director", "Head of Sales"],
+    "signals": [
+      { "label": "Quotes only by phone or email", "evidence": "Call or email us for a quote", "source": "site", "verified": true },
+      { "label": "New workshop opening", "evidence": "opening a second service workshop in Chakan", "source": "web:1", "verified": true, "url": "https://example.com/harbour-chakan" },
+      { "label": "No structured business data", "evidence": "No schema found", "source": "audit:schema", "verified": true },
+      { "label": "Exports to the Gulf", "evidence": "ships to customers in Dubai", "source": "web:2", "verified": false }
+    ],
+    "overrides": ["1 signal could not be matched to the source and was marked unverified."]
+  },
+  "draft": {
+    "subject": "Quotes at Harbour Tool Works",
+    "body": "Hi,\n\nYour site asks buyers to call or email for a quote, and I read you are opening a second service workshop in Chakan. With two sites, repeat tooling orders by phone get harder to track.\n\nA simple online reorder and quote page could take that load off your sales desk. Would a short call to see what that could look like for Harbour be useful?\n\nMitull",
+    "facts_used": ["site", "web:1"],
+    "check": { "pass": true, "problems": [], "words": 63 },
+    "attempts": 1
+  },
+  "research": { "searched": true, "sources": 2, "note": "" },
+  "steps": [
+    { "name": "Read website", "ms": 1400 },
+    { "name": "Web research", "ms": 14200 },
+    { "name": "Claude decision", "ms": 5100 },
+    { "name": "Draft", "ms": 6300 }
+  ],
+  "author": "Claude"
+}

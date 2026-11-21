@@ -1,13 +1,15 @@
-# node6 Labs AI Visibility Audit
+# node6 Labs Lead Desk
 
-Public lead magnet: a business owner types their website, gets a live AI visibility score (can ChatGPT, Perplexity and Gemini read and cite them?), reads a Claude-written report, and books a call with node6 Labs. Every audit becomes a lead in the Week 4 n8n pipeline (Airtable + Gmail draft + Slack approval).
+Main product (Week 6): the Lead Desk at `/desk.html`. Enter a company and Claude researches it, picks the node6 service that fits, names the buyer roles, quotes its evidence and drafts a first message (outbound drafts are never sent). The same engine handles inbound enquiries and hands them to an n8n workflow that emails a person for approval before any reply goes out. See `docs/lead-desk.md`.
+
+The older visibility check (`/visibility.html`, `/api/report`, `/api/audit`) measures website signals only. It does not measure whether AI assistants cite a site.
 
 Users: business owners (public, no login, often on mobile) and node6 Labs as operator.
 
 ## Stack
 - Next.js 15 App Router, TypeScript strict, Tailwind v4. Deployed on Vercel (push to `main` deploys).
-- Claude API: Haiku for scoring/classification, Sonnet for the written report and emails. Not wired yet.
-- n8n Cloud webhook receives each finished audit. Not wired yet.
+- Claude API via `@anthropic-ai/sdk` with structured outputs: Haiku 5.5 decides, Sonnet 5.5 researches (web search) and writes. Model IDs in `src/lib/desk/constants.ts`.
+- n8n Cloud: `node6 Enquiry Desk (Week 6)` receives enquiries (approval by email, Airtable log). Generator: `automation/n8n/build_desk_workflow.py`.
 - Tests: Vitest. No database: Airtable (via n8n) is the store.
 
 ## Commands
@@ -22,8 +24,9 @@ Users: business owners (public, no login, often on mobile) and node6 Labs as ope
 - `src/app/api/audit/route.ts`: GET `?url=` or POST `{url}` returns the scored audit JSON. Keep it thin.
 - `src/lib/audit/analyze.ts`: pure scoring, 13 checks, points sum to 100. No I/O. Mirrors Week 4 `n8n/audit.js`.
 - `src/lib/audit/fetch-site.ts`: URL normalising, SSRF guard, fetching. All outbound fetches to user-supplied hosts go through `safeGet`.
-- `src/lib/claude/`: Claude API calls (planned: report writer, email writer). One file per job.
-- `src/lib/n8n/`: webhook client for the Week 4 pipeline (planned).
+- `src/lib/desk/`: Lead Desk engine (`engine.ts`), Claude calls (`claude.ts`), schemas, guardrails and copy check (`guardrails.ts`), business rules (`constants.ts`). Tests in `desk.test.ts` use a fake Claude.
+- `src/lib/n8n/desk.ts`: forwards enquiries to the n8n approval workflow.
+- `public/desk.html`, `desk.js`, `desk.css`: the Lead Desk page (plain HTML and JS, no React).
 - `src/lib/audit/client.ts`: browser-side `requestAudit()` and `sortChecks()`. No React, so it is unit-tested.
 - `src/components/`: React components. `AuditForm` (client, owns state) renders `AuditReport` (presentational).
 - `docs/brief.md`: product brief summary, Week 6 build order and known limits. Read it before planning a feature.

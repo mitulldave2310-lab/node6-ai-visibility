@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f2e9">
+<title>Lead Desk | node6 Labs</title><link rel="stylesheet" href="/audit.css"><link rel="stylesheet" href="/desk.css"></head>
+<body><header><strong>node<span>6</span> Labs</strong><nav><a href="#research" data-tab="research">Research</a><a href="#enquiry" data-tab="enquiry">Send an enquiry</a></nav></header>
+<main>
+<section class="hero desk-hero"><div>
+<p class="label">NODE6 LEAD DESK</p>
+<h1>Know who to talk to, and <i>what to say.</i></h1>
+<p class="intro">Enter a company. Claude reads its website, searches the public web, checks the fit against node6's customer profile and drafts a first message. Every claim links to its source, and nothing is sent without a person.</p>
+<div class="tabs" role="tablist"><button type="button" role="tab" id="tab-research" aria-controls="research" aria-selected="true">Research a company</button><button type="button" role="tab" id="tab-enquiry" aria-controls="enquiry" aria-selected="false">Send an enquiry</button></div>
+
+<form id="research" role="tabpanel" aria-labelledby="tab-research">
+<label for="company">Company name <span class="opt">(optional)</span></label><input id="company" name="company" maxlength="120" autocomplete="organization" placeholder="Shree Valves">
+<label for="website">Company website</label><div class="entry"><input id="website" name="website" inputmode="url" autocomplete="url" placeholder="company.com" required maxlength="300"><button>Research</button></div>
+<button type="button" id="sample" class="link">See a sample run ↗</button>
+</form>
+
+<form id="enquiry" role="tabpanel" aria-labelledby="tab-enquiry" hidden>
+<label>Your name<input name="name" required maxlength="100" autocomplete="name"></label>
+<label>Work email<input name="email" type="email" required maxlength="254" autocomplete="email"></label>
+<label>Company website<input name="website" required maxlength="300" inputmode="url" placeholder="company.com"></label>
+<label>What do you need?<textarea name="message" required minlength="15" maxlength="2000" rows="4" placeholder="We take orders by phone and want customers to order online."></textarea></label>
+<label class="check"><input name="consent" type="checkbox" required> node6 Labs may reply to me about this enquiry.</label>
+<button>Send enquiry</button>
+<p class="note">Claude reads your website and drafts a reply. A person at node6 Labs reads it before anything is sent to you.</p>
+</form>
+<p id="status" role="status"></p>
+<ol id="progress" hidden></ol>
+</div>
+<aside aria-label="How the desk decides"><div class="plate"><small>HOW IT DECIDES</small>
+<ol class="flow"><li><b>Read</b> the website and run 13 audit checks</li><li><b>Search</b> the public web for news, hiring and expansion</li><li><b>Decide</b> fit, service and buyer with Claude</li><li><b>Check</b> every quote against its source</li><li><b>Draft</b> a message that passes the copy rules</li></ol>
+<p>Outbound drafts are never sent. Enquiry replies wait for a person's approval.</p></div></aside>
+</section>
+
+<section id="card" hidden tabindex="-1">
+<p class="label" id="origin"></p><h2 id="who"></h2><p id="summary" class="lede"></p>
+<div class="facts">
+<div><small>FIT</small><b id="fit"></b></div>
+<div><small>LEAD WITH</small><b id="service"></b></div>
+<div><small>NEXT STEP</small><b id="route"></b></div>
+<div><small>WHO BUYS</small><b id="roles"></b></div>
+</div>
+<p id="reason"></p>
+<h3>Evidence</h3><ul id="signals" class="signals"></ul>
+<h3>Rules that checked Claude</h3><ul id="overrides" class="plain"></ul>
+<h3>Still to find out</h3><ul id="missing" class="plain"></ul>
+<div id="draftBox" class="draft" hidden><p class="label">DRAFT · <span id="draftKind"></span></p><p id="subject"></p><pre id="body"></pre><p id="copy"></p></div>
+<p id="meta" class="meta"></p>
+</section>
+
+<section id="thanks" hidden tabindex="-1"><h2>Thanks, we have it.</h2><p id="thanksText"></p></section>
+</main>
+<footer>node6 Labs Lead Desk <span><a href="/visibility.html">Website visibility check</a> · <a href="https://www.node6labs.com/">node6labs.com ↗</a></span></footer>
+<script type="module" src="/desk.js"></script></body></html>

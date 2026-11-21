@@ -1,6 +1,8 @@
 // Network side of the audit: normalise the user's input, block private addresses, fetch the
 // five URLs the scorer needs. Server only (uses node:dns).
 import { lookup } from "node:dns/promises";
+import { request as httpsRequest } from "node:https";
+import { request as httpRequest } from "node:http";
 import { isIP } from "node:net";
 import type { AuditInput, FetchResult } from "./analyze";
 
@@ -67,19 +69,42 @@ export async function safeGet(url: string, ua: string): Promise<FetchResult> {
   try {
     for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
       const u = new URL(current);
-      await assertPublicHost(u.hostname);
-      const r = await fetch(current, {
-        headers: { "User-Agent": ua, Accept: "text/html,application/xhtml+xml,text/plain,*/*" },
-        redirect: "manual",
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+      if (!["http:", "https:"].includes(u.protocol) || u.username || u.password || u.port) return { error: "Unsupported destination" };
+      const addresses = await lookup(u.hostname, { all: true, family: 4 });
+      if (!addresses.length || addresses.some(a => isPrivateIp(a.address))) return { error: "Unavailable public address" };
+      const address = addresses[0].address;
+      const response = await new Promise<{status:number; body:string; redirect?:string}>((resolve,reject) => {
+        const request = (u.protocol === "https:" ? httpsRequest : httpRequest)(u, {
+          agent:false, family:4, signal:AbortSignal.timeout(TIMEOUT_MS),
+          lookup: (_host, _options, callback) => callback(null,address,4),
+          headers: { "User-Agent":ua, Accept:"text/html,application/xml,text/plain,*/*" }
+        }, res => {
+          const status = res.statusCode || 0;
+          if (status >= 300 && status < 400 && res.headers.location) {
+            resolve({status,body:"",redirect:res.headers.location});
+            res.destroy();
+            return;
+          }
+          const parts: Buffer[] = [];
+          let bytes = 0;
+          res.on("data", (part:Buffer) => {
+            bytes += part.length;
+            if (bytes > MAX_BODY_BYTES) {
+              reject(new Error("Response exceeds the audit limit"));
+              res.destroy();
+            } else parts.push(part);
+          });
+          res.on("error",reject);
+          res.on("end",()=>resolve({status,body:Buffer.concat(parts).toString("utf8")}));
+        });
+        request.on("error",reject);
+        request.end();
       });
-      if (r.status >= 300 && r.status < 400 && r.headers.get("location")) {
-        current = new URL(r.headers.get("location")!, current).toString();
+      if (response.redirect) {
+        current = new URL(response.redirect,current).toString();
         continue;
       }
-      const buf = await r.arrayBuffer();
-      const body = new TextDecoder().decode(buf.slice(0, MAX_BODY_BYTES));
-      return { status: r.status, body, finalUrl: current };
+      return {status:response.status,body:response.body,finalUrl:current};
     }
     return { error: "Too many redirects" };
   } catch (e) {
@@ -99,3 +124,4 @@ export async function fetchSite(baseUrl: string): Promise<AuditInput> {
   ]);
   return { url: baseUrl, home, bot, robots, llms, sitemap };
 }
+
